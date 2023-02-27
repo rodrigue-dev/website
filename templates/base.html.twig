@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>{% block title %}OKOHO {% endblock %}</title>
+        <!-- Basic -->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        {% block meta %}{% endblock %}
+        <meta name="description" content="Cours de langue, OKOHO ">
+        <meta name="keywords" content="Allemand">
+        <meta name="author" content="Rodrigue mbah">
+        <!-- Mobile Metas -->
+        <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        {% block stylesheets %}
+            <!-- Google Web Fonts -->
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+            <!-- Icon Font Stylesheet -->
+            <link href="{{ asset('front/css/fontawesome-free/css/all.min.css') }}" rel="stylesheet">
+            <link href="{{ asset('front/bootstrap-icons.css') }}" rel="stylesheet">
+
+            <!-- Libraries Stylesheet -->
+            <link href="{{ asset('front/lib/animate/animate.min.css') }}" rel="stylesheet">
+            <link href="{{ asset('front/lib/owlcarousel/assets/owl.carousel.min.css') }}" rel="stylesheet">
+            <!-- Bootstrap CSS -->
+            <link rel="stylesheet" href="{{ asset('front/css/bootstrap.min.css') }}">
+            <!-- ALL VERSION CSS -->
+           <link rel="stylesheet" href="{{ asset('front/css/font-awesome.min.css') }}">
+            <link rel="stylesheet" href="{{ asset('front/select2/select2.min.css') }}">
+            <link rel="stylesheet" href="{{ asset('front/select2/select2-bootstrap.min.css') }}">
+            <link rel="stylesheet" href="{{ asset('front/css/style.css') }}">
+        {% endblock %}
+        <link rel="icon" type="image/x-icon" href="{{ asset('favicon.png') }}" />
+
+    </head>
+    <body class="seo_version">
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-grow text-primary" role="status"></div>
+    </div>
+    <!-- Spinner End -->
+    {% include '_partials/header.html.twig' %}
+    {% block body %}
+
+        {% endblock %}
+    {% include '_partials/footer.html.twig' %}
+    {% block javascripts %}
+        <!-- ALL JS FILES-->
+        <script src="{{ asset('front/js/new/jquery.min.js') }}"></script>
+        <script src="{{ asset('front/js/popper.min.js') }}"></script>
+        <script src="{{ asset('front/js/bootstrap.bundle.min.js') }}"></script>
+        <script src="{{ asset('front/lib/wow/wow.min.js') }}"></script>
+        <script src="{{ asset('front/lib/easing/easing.min.js') }}"></script>
+        <script src="{{ asset('front/lib/waypoints/waypoints.min.js') }}"></script>
+        <script src="{{ asset('front/lib/owlcarousel/owl.carousel.min.js') }}"></script>
+
+        {#<script src="{{ asset('front/select2/select2.min.js') }}"></script>#}
+       <script src="{{ asset('front/js/main.js') }}"></script>
+        <!-- Load Facebook SDK for JavaScript -->
+        <div id="fb-root"></div>
+    {#    <script>
+            $(".selectpicker").select2(
+                {
+                    theme: "bootstrap"
+                }
+            );</script>#}
+        {% endblock %}
+    </body>
+</html>

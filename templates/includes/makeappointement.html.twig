@@ -1,0 +1,40 @@
+<div class="bg-primary text-center p-5">
+    <h1 class="mb-4">{{ "make-appointment.title"|trans }}</h1>
+    <form>
+        <div class="row g-3">
+            <div class="col-sm-6">
+                <div class="form-floating">
+                    <input type="text" class="form-control border-0" id="gname" placeholder="Gurdian Name">
+                    <label for="gname">{{ "make-appointment.your-name"|trans }}</label>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="form-floating">
+                    <input type="email" class="form-control border-0" id="gmail" placeholder="Gurdian Email">
+                    <label for="gmail">{{ "make-appointment.your-email"|trans }}</label>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="form-floating">
+                    <input type="text" class="form-control border-0" id="cname" placeholder="Child Name">
+                    <label for="cname">{{ "make-appointment.course-type"|trans }}</label>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="form-floating">
+                    <input type="text" class="form-control border-0" id="cage" placeholder="Child Age">
+                    <label for="cage">{{ "make-appointment.niveau"|trans }} </label>
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="form-floating">
+                    <textarea class="form-control border-0" placeholder="Leave a message here" id="message" style="height: 100px"></textarea>
+                    <label for="message">Message</label>
+                </div>
+            </div>
+            <div class="col-12">
+                <button class="btn btn-dark w-100 py-3" type="submit">{{ 'button.submit'|trans }}</button>
+            </div>
+        </div>
+    </form>
+</div>

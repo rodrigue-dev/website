@@ -1,0 +1,91 @@
+carousel:
+  slide1: "Apprennez une nouvelle langue avec assurrance"
+  slide2: "Conseils, Orientation et assistance pour le visa"
+title:
+  home: "Accueil"
+  about: "Apropos"
+  contact: "Contact-us"
+  immigration: "Immigration"
+  learn: "Cours de langue"
+  recrutement: "Recrutement"
+  ressource-humaine: "Ressources humaine"
+fact:
+  item-tilte1: "Contrat de formation ou de travail"
+  item-text1: "Clita erat ipsum lorem sit sed stet duo justo erat amet"
+  item-tilte2: "National Instructor"
+  item-text2: "Clita erat ipsum lorem sit sed stet duo justo erat amet"
+  item-tilte3: "Get price"
+  item-text3: "Clita erat ipsum lorem sit sed stet duo justo erat amet"
+course_start:
+  h6: "Cours intensifs d'Allemend"
+  h1: "Apprennez dans le meilleur centre d'allemend"
+feature_start:
+  h6: "Pourquoi nous choisir!"
+  h1: "Meilleur centre apprentissage d'allemend"
+  p: "empor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet"
+  row:
+    item1:
+      h5: "Fully Licensed"
+      span: "Magna sea eos sit dolor, ipsum amet ipsum lorem diam eos"
+    item2:
+      h5: "Online Tracking"
+      span: "Magna sea eos sit dolor, ipsum amet ipsum lorem diam eos"
+    item3:
+      h5: "Afordable Fee"
+      span: "Magna sea eos sit dolor, ipsum amet ipsum lorem diam eos"
+    item4:
+      h5: "Best Trainers"
+      span: "Magna sea eos sit dolor, ipsum amet ipsum lorem diam eos"
+about-fact:
+  h6: "Apropos de nous"
+  h1: "Nous vous aidons dans votre processus d'immigration"
+  p1: "ipsum amet ipsum lorem diam ipsum amet ipsum lorem diam"
+  p2: "lita duo justo magna dolore erat amet ipsum amet ipsum lorem diam"
+  item1: "Fully Licensed"
+  item2: "Online Tracking"
+  item3: "Afordable Fee"
+  item4: "Best Trainers"
+team:
+  h6: "Rencontrez notre équipe"
+  h1: "Nous avons une grande experience dans l'apprentissage et immigration"
+testimonial:
+  h6: "Testimonial"
+  h1: "Quest ce disent nos apprenants!"
+make-appointment:
+  your-name: "Your Name"
+  your-email: "Your Email"
+  course-type: "Course type"
+  niveau: "Niveau"
+  title: 'Faire une reservation'
+header:
+  nav:
+    home: "Accueil"
+    about: "Apropos"
+    contact: "Contact"
+    service: "Services"
+    learn: "Cours de langue"
+    recrutement: "Recrutement"
+    ressource-h: "Ressource humaine"
+    immigration: 'Immigration'
+  getstated: "Get Started"
+footer:
+  about: "About us"
+  contact: "Contact us"
+  service: "Our Services"
+  learn: "Cours de langue"
+  recrutement: "Recrutement"
+  newsletter: "Newsletter"
+  term-condition: "Terms & Condition"
+  support: "Support"
+  follow-us: "Follow Us"
+  get-in-touch: "Get In Touch"
+  popular-links: "Popular Links"
+  quick-links: "Quick Links"
+button:
+  more: "Lisez plus"
+  submit: "Valider"
+  course: 'Nos cours'
+  previous: 'Precedant'
+  next: 'Suivant'
+  sign-up: "Sign-up"
+
