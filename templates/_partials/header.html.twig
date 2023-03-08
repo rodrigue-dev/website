@@ -4,7 +4,7 @@
         <div class="col-lg-7 px-5 text-start">
             <div class="h-100 d-inline-flex align-items-center me-4">
                 <small class="fas fa-map-marked text-primary me-2"></small>
-                <small>123 Street, Berlin, Deustchland</small>
+                <small>Langer Steinweg 60, 32825 Blomberg</small>
             </div>
             <div class="h-100 d-inline-flex align-items-center me-4">
                 <small class="far fa-clock text-primary me-2"></small>
@@ -67,9 +67,12 @@
             <div class="nav-item dropdown">
                 <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">{{ "header.nav.service"|trans }}</a>
                 <div class="dropdown-menu bg-light m-0">
-                    <a href="{{ path('learn') }}" class="dropdown-item">{{ "header.nav.learn"|trans }}</a>
-                    <a href="{{ path('recrutement') }}" class="dropdown-item">{{ "header.nav.recrutement"|trans }}</a>
-                    <a href="{{ path('ressource-h') }}" class="dropdown-item">{{ "header.nav.ressource-h"|trans }}</a>
+                    <a href="{{ path('conseil_employeur') }}" class="dropdown-item">{{ "header.nav.service1"|trans }}</a>
+                    <a href="{{ path('conseil_professionel') }}" class="dropdown-item">{{ "header.nav.service2"|trans }}</a>
+                    <a href="{{ path('placement_personnel') }}" class="dropdown-item">{{ "header.nav.service3"|trans }}</a>
+                    <a href="{{ path('conseil_immigration') }}" class="dropdown-item">{{ "header.nav.service4"|trans }}</a>
+                    <a href="{{ path('promotion_integration') }}" class="dropdown-item">{{ "header.nav.service5"|trans }}</a>
+                    <a href="{{ path('developpement_personnel') }}" class="dropdown-item">{{ "header.nav.service6"|trans }}</a>
                 </div>
             </div>
             <a {% if app.request.attributes.get( '_route' ) starts with 'contact' %} class="nav-item nav-link active"{% else %} class="nav-item nav-link " {% endif %}

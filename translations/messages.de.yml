@@ -1,28 +1,34 @@
 carousel:
-  slide1: "Learn a new language confidently"
-  slide2: "Visa advice, guidance and assistance"
+  slide1: "Arbeitgeberberatung"
+  slide2: "Einwanderungsberatung"
 title:
   home: "Home"
   about: "About-us"
   contact: "Contact-us"
   immigration: "Immigration"
+  service1: "Arbeitgeberberatung"
+  service2: "Beratung Internationaler Fachkräfte"
+  service3: "Fachkräftevermittlung"
+  service4: "Einwanderungsberatung"
+  service5: "Integrationsförderung"
+  service6: "Fachkräfteentwicklung"
   learn: "Learn"
   recrutement: "Recruitment"
   ressource-humaine: "Ressource-humaine"
 fact:
-  item-tilte1: "Contrat de formation ou de travail"
-  item-text1: "Clita erat ipsum lorem sit sed stet duo justo erat amet"
-  item-tilte2: "National Instructor"
-  item-text2: "Clita erat ipsum lorem sit sed stet duo justo erat amet"
-  item-tilte3: "Get price"
-  item-text3: "Clita erat ipsum lorem sit sed stet duo justo erat amet"
+  item-tilte1: "Fachkräftevermittlung"
+  item-text1: "Sie suchen Fachkräfte und wissen nicht, wo Sie welche finden?"
+  item-tilte2: "Beratung Internationaler Fachkräfte"
+  item-text2: "Sie möchten gern in Deutschland leben und arbeiten, aber Sie wissen nicht, wie das geht?"
+  item-tilte3: "Fachkräfteentwicklung"
+  item-text3: ""
 course_start:
   h6: "Intensive German courses"
   h1: "Learn in the best German center"
 feature_start:
-  h6: "Why Choose Us!"
-  h1: "Best German learning center"
-  p: "empor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet"
+  h6: "Unsere Vision!"
+  h1: "Unsere Vision!"
+  p: "Unsere Vision ist, die effektivsten und effizientesten Lösungen für eine nachhaltige, menschenwürdige internationale Fachkräftemigration anzubieten."
   row:
     item1:
       h5: "Fully Licensed"
@@ -39,12 +45,14 @@ feature_start:
 about-fact:
   h6: "About Us"
   h1: "We help you with your immigration process"
-  p1: "ipsum amet ipsum lorem diam ipsum amet ipsum lorem diam"
-  p2: "lita duo justo magna dolore erat amet ipsum amet ipsum lorem diam"
-  item1: "Fully Licensed"
-  item2: "Online Tracking"
-  item3: "Afordable Fee"
-  item4: "Best Trainers"
+  p1: "“OKOHO ist spezialisiert auf die Vermittlung, Beratung und Begleitung von Fachkräften aus Drittstaaten auf dem deutschen Arbeitsmarkt.
+       Auf der Grundlage der neuesten Forschungserkenntnisse und unserer eigenen Erfahrungen als Menschen aus Drittstaaten helfen wir Ihnen, die passenden Fachkräfte für Ihr Unternehmen zu finden und sie langfristig zu binden.
+       Wir unterstützen potenzielle Fachkräfte bei jedem Schritt ihrer Einwanderung und ihrer Integration bis zum letzten Behördengang in Deutschland."
+  p2: "Unsere Vision ist, die effektivsten und effizientesten Lösungen für eine nachhaltige, menschenwürdige internationale Fachkräftemigration anzubieten."
+  item1: "Arbeitgeberberatung"
+  item2: "Beratung Internationaler Fachkräfte"
+  item3: "Fachkräftevermittlung"
+  item4: "Einwanderungsberatung"
 team:
   h6: "Meet The Team"
   h1: "We have extensive experience in learning and immigration"
@@ -88,3 +96,51 @@ button:
   previous: 'Previous'
   next: 'Next'
   sign-up: "Sign-up"
+services:
+  service1:
+    h1_1: ""
+    p_1: "Sie wollen Fachkräfte aus dem Ausland einstellen und möchten wissen, wie das läuft? Sie wissen nicht, womit Sie anfangen sollen? Kein Problem: Wir unterstützen Sie dabei."
+    p_2: "Wir informieren Sie über die verschiedenen Phasen und Schritte von der Kontaktaufnahme mit Fachkräften im Ausland bis zu deren Beschäftigungsantritt in Ihrem Unternehmen."
+    p_3: "Im Rahmen des Anerkennungsverfahrens bei der Fachkräftezuwanderung steht den Unternehmen ein rundes Dutzend offizieller Anlaufstellen und Portalen beratend zur Verfügung. Je nach Ihrem Bedarf stellen wir für Sie die wichtigsten Informationen aus diesen Anlaufstellen und Portalen zusammen und übernehmen für Sie den Anerkennungsprozess der Schul-, Studien- und Berufsabschlüsse Ihrer zukünftigen Fachkräfte aus dem Ausland."
+    p_4: "Des Weiteren stellen wir sehr gern für Sie alle nötigen Informationen über die Herkunftsländer, sozio-kulturelle Artefakte bereit, die eine bessere Verständigung und eine erfolgreiche Zusammenarbeit mit den ausländischen Fachkräften fördern."
+  service2:
+    h1_1: ""
+    p_1: "Sie möchten gern in Deutschland leben und arbeiten, aber Sie wissen nicht, wie das geht?"
+    p_2: "Wir informieren Sie über den deutschen Arbeitsmarkt und unterstützen Sie in allen Phasen und Schritten bis zum Beschäftigungsantritt in Deutschland. Wir beantworten alle Ihre Fragen rund um Bewerbung, Jobsuche, Ausbildung, Anerkennungsverfahren und Berufstätigkeit in Deutschland. Wir unterstützen Sie beim Anerkennungsprozess Ihrer Qualifikationen und helfen Ihnen, die richtigen Arbeitgeber in Deutschland kennenzulernen."
+    p_3: ""
+    p_4: ""
+  service3:
+    h1_1: ""
+    p_1: "Sie suchen Fachkräfte und wissen nicht, wo Sie welche finden?"
+    p_2: "Wir stellen Ihnen für jede offene Stelle mehrere Bewerber*innen vor, damit Sie die passenden Fachkräfte für Ihr Unternehmen finden. Wir unterstützen Sie und die Bewerber*innen bei der Organisation der Online-Bewerbungsgespräche. Durch unsere Workshops und Beratungsangebote bereiten wir die ausgewählten Fachkräfte für die effektive Tätigkeit in Ihrem Unternehmen vor."
+    p_3: ""
+    p_4: ""
+  service4:
+    h1_1: ""
+    p_1: "Wir unterstützen Ihre Fachkräfte bei allen Fragen rund um Einwanderung: Visumantrag und Reisevorbereitung. Wir stehen Ihnen bei allen Fragen rund um Reisen und Leben in Deutschland zur Seite."
+    p_2: ""
+    p_3: ""
+    p_4: ""
+  service5:
+    h1_1: ""
+    p_1: "Wir unterstützen Ihre Fachkräfte aus Drittstaaten bei der Wohnungssuche sowie bei den Behördengängen in Deutschland. Wir helfen ihnen, in der deutschen Gesellschaft Fuß zu fassen."
+    p_2: "Als erste Anlaufstelle für Ihre Fachkräfte aus Drittstaaten beraten wir sie bei allen möglichen Fragen rund um Behörden und Leben in Deutschland. Eventuell unterstützen wir ihre Fachkräfte aus Drittstaaten und deren Familie beim Familiennachzug, bei der Einschulung ihrer Kinder, etc."
+    p_3: "Durch unser umfangreiches Trainings- und Workshop-Angebote  unterstützen wir Sie und Ihr Team beim erfolgreichen Onboarding der ausländischen Fachkräfte in Ihrem Unternehmen und bei deren Bindung an Ihr Unternehmen."
+    p_4: ""
+  service6:
+    h1_1: ""
+    p_1: "Durch Personalentwicklungsmaßnahmen helfen wir Ihren Fachkräften bei der Entwicklung bestimmter sprachlicher und beruflicher Kompetenzen, die für die Tätigkeit in Ihrem Unternehmen erforderlich sind."
+    p_2: "Unser umfangreiches weltweites Netzwerk von Sprachkurseinrichtungen, Sprachlehrkräften und Sprachangeboten, die unseren anspruchsvollen Qualitätsstandards entsprechen, unterstützen ihre Fachkräfte aus Drittstaaten beim Erlernen der deutschen Sprache."
+    p_3: ""
+    p_4: ""
+contact:
+  h1: "Prenez contact avec nous"
+  h6: "Quel est le meilleur moment pour vous contacter ?"
+  name: "Vorname, Name"
+  entrepise: "Unternehmen"
+  ville: "Ort"
+  phone: "Telefon"
+  email: "E-mail"
+  sujet: "Betreff"
+  message: "Ihr Anliegen"
+  button: "Envoyer"

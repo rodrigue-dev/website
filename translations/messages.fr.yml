@@ -1,28 +1,33 @@
 carousel:
-  slide1: "Apprennez une nouvelle langue avec assurrance"
-  slide2: "Conseils, Orientation et assistance pour le visa"
+  slide1: "Conseil aux employeurs"
+  slide2: "Conseil en immigration"
 title:
   home: "Accueil"
   about: "Apropos"
   contact: "Contact-us"
   immigration: "Immigration"
-  learn: "Cours de langue"
+  service1: "Conseil aux employeurs"
+  service2: "Conseil aux professionnels internationaux"
+  service3: "Placement de personnel qualifié"
+  service4: "Conseil en immigration"
+  service5: "Promotion de l'intégration"
+  service6: "Développement du personnel qualifié"
   recrutement: "Recrutement"
   ressource-humaine: "Ressources humaine"
 fact:
-  item-tilte1: "Contrat de formation ou de travail"
-  item-text1: "Clita erat ipsum lorem sit sed stet duo justo erat amet"
-  item-tilte2: "National Instructor"
-  item-text2: "Clita erat ipsum lorem sit sed stet duo justo erat amet"
-  item-tilte3: "Get price"
-  item-text3: "Clita erat ipsum lorem sit sed stet duo justo erat amet"
+  item-tilte1: "Placement de personnel qualifié"
+  item-text1: "Vous cherchez du personnel qualifié et ne savez pas où en trouver ?"
+  item-tilte2: "Conseil aux professionnels internationaux"
+  item-text2: "Vous aimeriez vivre et travailler en Allemagne, mais vous ne savez pas comment vous y prendre ?"
+  item-tilte3: "Développement du personnel qualifié"
+  item-text3: ""
 course_start:
   h6: "Cours intensifs d'Allemend"
   h1: "Apprennez dans le meilleur centre d'allemend"
 feature_start:
   h6: "Pourquoi nous choisir!"
-  h1: "Meilleur centre apprentissage d'allemend"
-  p: "empor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet"
+  h1: "Pourquoi nous choisir!"
+  p: "Notre vision est d'offrir les solutions les plus efficaces et les plus efficientes pour une migration internationale durable et digne des professionnels"
   row:
     item1:
       h5: "Fully Licensed"
@@ -39,12 +44,14 @@ feature_start:
 about-fact:
   h6: "Apropos de nous"
   h1: "Nous vous aidons dans votre processus d'immigration"
-  p1: "ipsum amet ipsum lorem diam ipsum amet ipsum lorem diam"
-  p2: "lita duo justo magna dolore erat amet ipsum amet ipsum lorem diam"
-  item1: "Fully Licensed"
-  item2: "Online Tracking"
-  item3: "Afordable Fee"
-  item4: "Best Trainers"
+  p1: "“OKOHO est spécialisé dans le placement, le conseil et l'accompagnement de travailleurs qualifiés issus de pays tiers sur le marché du travail allemand.
+       En nous basant sur les dernières connaissances en matière de recherche et sur notre propre expérience en tant que personnes originaires de pays tiers, nous vous aidons à trouver les professionnels qui conviennent à votre entreprise et à les fidéliser à long terme.
+       Nous soutenons les professionnels potentiels à chaque étape de leur immigration et de leur intégration, jusqu'à la dernière démarche administrative en Allemagne."
+  p2: "Notre vision est d'offrir les solutions les plus efficaces et les plus efficientes pour une migration internationale durable et digne des professionnels."
+  item1: "Conseil aux employeurs"
+  item2: "Conseil aux professionnels internationaux"
+  item3: "Placement de personnel qualifié"
+  item4: "Conseil en immigration"
 team:
   h6: "Rencontrez notre équipe"
   h1: "Nous avons une grande experience dans l'apprentissage et immigration"
@@ -63,6 +70,12 @@ header:
     about: "Apropos"
     contact: "Contact"
     service: "Services"
+    service1: "Conseil aux employeurs"
+    service2: "Conseil aux professionnels internationaux"
+    service3: "Placement de personnel qualifié"
+    service4: "Conseil en immigration"
+    service5: "Promotion de l'intégration"
+    service6: "Développement du personnel qualifié"
     learn: "Cours de langue"
     recrutement: "Recrutement"
     ressource-h: "Ressource humaine"
@@ -88,4 +101,51 @@ button:
   previous: 'Precedant'
   next: 'Suivant'
   sign-up: "Sign-up"
-
+services:
+  service1:
+    h1_1: ""
+    p_1: "Vous souhaitez recruter du personnel qualifié à l' étranger et vous voulez savoir comment cela se passe ? Vous ne savez pas par quoi commencer ? Pas de problème : nous vous soutenons dans cette démarche."
+    p_2: "Nous vous informons sur les différentes phases et étapes de la prise de contact avec des travailleurs qualifiés à l'étranger jusqu'à leur entrée en fonction dans votre entreprise."
+    p_3: "Dans le cadre de la procédure de reconnaissance des qualifications professionnelles et universitaires de travailleurs qualifiés, une dizaine de points de contact et de portails officiels ont été mis sur pied pour assurer le conseil des entreprises à des candidats à l´immigration vers l´Allemagne. En fonction de vos besoins, nous rassemblons pour vous les informations les plus importantes de ces points de contact et portails et assurons pour vous les démarches nécessaires dans le processus de reconnaissance des diplômes scolaires, universitaires et professionnels de votre futur personnel qualifié venant de l'étranger."
+    p_4: "De plus, nous vous fournissons volontiers toutes les informations nécessaires sur les pays d'origine, les artefacts socio-culturels qui favorisent une meilleure compréhension et une collaboration fructueuse avec les professionnels étrangers."
+  service2:
+    h1_1: ""
+    p_1: "Vous aimeriez vivre et travailler en Allemagne, mais vous ne savez pas comment vous y prendre ?"
+    p_2: "Nous vous renseignons sur le marché du travail allemand et vous soutenons dans toutes les phases et étapes jusqu'à l'entrée dans la vie active en Allemagne. Nous répondons à toutes vos questions concernant la candidature, la recherche d'emploi, la formation, la procédure de reconnaissance et l'activité professionnelle en Allemagne. Nous vous soutenons dans le processus de reconnaissance de vos qualifications et vous aidons à rencontrer les bons employeurs en Allemagne."
+    p_3: ""
+    p_4: ""
+  service3:
+    h1_1: ""
+    p_1: "Vous cherchez du personnel qualifié et ne savez pas où en trouver ?"
+    p_2: "Nous vous présentons plusieurs candidat(e)s pour chaque poste vacant afin que vous puissiez trouver la perle rare pour votre entreprise. Nous vous aidons, vous et les candidat(e)s, à organiser les entretiens d'embauche en ligne. Grâce à nos ateliers de formation et à nos offres de conseil, nous préparons les professionnels sélectionnés à travailler efficacement dans votre entreprise."
+    p_3: ""
+    p_4: ""
+  service4:
+    h1_1: ""
+    p_1: "Nous soutenons vos professionnels pour toutes les questions relatives à l'immigration : demande de visa et préparation du voyage. Nous les conseillons sur toutes les questions relatives au voyage et à la vie en Allemagne."
+    p_2: ""
+    p_3: ""
+    p_4: ""
+  service5:
+    h1_1: ""
+    p_1: "Nous soutenons vos professionnels dans leur recherche de logement ainsi que dans leurs démarches administratives en Allemagne. Nous les aidons à prendre pied dans la société allemande"
+    p_2: "En tant que premier point de contact pour vos travailleurs qualifiés issus de pays tiers, nous les conseillons sur toutes les questions possibles concernant les formalités administratives et la vie en Allemagne. Nous soutenons éventuellement vos professionnels originaires de pays tiers et leur famille dans le cadre du regroupement familial, de la scolarisation de leurs enfants, etc."
+    p_3: "Grâce à notre offre complète de formations et de workshops, nous vous aidons, vous et votre équipe, à réussir à intégrer le personnel qualifié étranger dans votre entreprise et à le fidéliser."
+    p_4: ""
+  service6:
+    h1_1: ""
+    p_1: "Grâce à des mesures de perfectionnement du personnel, nous aidons vos spécialistes à développer certaines compétences linguistiques et professionnelles nécessaires à l'activité de votre entreprise."
+    p_2: "Notre vaste réseau mondial de centres de cours de langues, de professeurs de langues et d'offres linguistiques, qui répondent à nos normes de qualité exigeantes, aide vos personnels qualifiés issus de pays tiers à apprendre l'allemand avec succès."
+    p_3: ""
+    p_4: ""
+contact:
+  h1: "Prenez contact avec nous"
+  h6: "Quel est le meilleur moment pour vous contacter ?"
+  name: "Prénom, nom de famille"
+  entrepise: "Nom de l'entreprise"
+  ville: "Ville"
+  phone: "Téléphone"
+  email: "E-mail"
+  sujet: "Sujet"
+  message: "Votre demande "
+  button: "Envoyer"

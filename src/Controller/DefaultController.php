@@ -65,33 +65,63 @@ class DefaultController extends AbstractController
         ]);
     }
     /**
-     * @Route("/{_locale<%app.supported_locales%>}/learn", name="learn")
+     * @Route("/{_locale<%app.supported_locales%>}/conseil_employeur", name="conseil_employeur")
      * @param Request $request
      * @return Response
      */
-    public function cours_langue(Request $request): Response
+    public function conseil_employeur(Request $request): Response
     {
-        return $this->render('default/learn.html.twig', [
+        return $this->render('default/conseil_employeur.html.twig', [
         ]);
     }
     /**
-     * @Route("/{_locale<%app.supported_locales%>}/ressource-h", name="ressource-h")
+     * @Route("/{_locale<%app.supported_locales%>}/conseil_professionel", name="conseil_professionel")
      * @param Request $request
      * @return Response
      */
-    public function rh(Request $request): Response
+    public function conseil_professionel(Request $request): Response
     {
-        return $this->render('default/ressource-h.html.twig', [
+        return $this->render('default/conseil_professionel.html.twig', [
         ]);
     }
     /**
-     * @Route("/{_locale<%app.supported_locales%>}/recrutement", name="recrutement")
+     * @Route("/{_locale<%app.supported_locales%>}/placement_personnel", name="placement_personnel")
      * @param Request $request
      * @return Response
      */
-    public function recrutement(Request $request): Response
+    public function placement_personnel(Request $request): Response
     {
-        return $this->render('default/recrutement.html.twig', [
+        return $this->render('default/placement_personnel.html.twig', [
+        ]);
+    }
+    /**
+     * @Route("/{_locale<%app.supported_locales%>}/conseil_immigration", name="conseil_immigration")
+     * @param Request $request
+     * @return Response
+     */
+    public function conseil_immigration(Request $request): Response
+    {
+        return $this->render('default/conseil_immigration.html.twig', [
+        ]);
+    }
+    /**
+     * @Route("/{_locale<%app.supported_locales%>}/promotion_integration", name="promotion_integration")
+     * @param Request $request
+     * @return Response
+     */
+    public function promotion_integration(Request $request): Response
+    {
+        return $this->render('default/promotion_integration.html.twig', [
+        ]);
+    }
+    /**
+     * @Route("/{_locale<%app.supported_locales%>}/developpement_personnel", name="developpement_personnel")
+     * @param Request $request
+     * @return Response
+     */
+    public function developpement_personnel(Request $request): Response
+    {
+        return $this->render('default/developpement_personnel.html.twig', [
         ]);
     }
     /**
