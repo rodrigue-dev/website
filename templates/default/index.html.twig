@@ -8,13 +8,13 @@
         <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="w-100" src="http://via.placeholder.com/1920x1080" alt="Image">
+                    <img class="w-100" src="{{ asset('images/ouvrier-dans-usine.jpg') }}" alt="Image">
                     <div class="carousel-caption">
                         <div class="container">
                             <div class="row justify-content-center">
                                 <div class="col-lg-7">
                                     <h1 class="display-2 text-light mb-5 animated slideInDown">{{ 'carousel.slide1'|trans }}</h1>
-                                    <a href="" class="btn btn-primary py-sm-3 px-sm-5">{{ "button.more"| trans }}</a>
+                                    <a href="{{ path('conseil_employeur') }}" class="btn btn-primary py-sm-3 px-sm-5">{{ "button.more"| trans }}</a>
                                     <a href="" class="btn btn-light py-sm-3 px-sm-5 ms-3">{{ "button.course"| trans }}</a>
                                 </div>
                             </div>
@@ -22,13 +22,27 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img class="w-100" src="http://via.placeholder.com/1920x1080" alt="Image">
+                    <img class="w-100" src="{{ asset('images/fermez-gens-agence-voyage.jpg') }}" alt="Image">
                     <div class="carousel-caption">
                         <div class="container">
                             <div class="row justify-content-center">
                                 <div class="col-lg-7">
                                     <h1 class="display-2 text-light mb-5 animated slideInDown">{{ 'carousel.slide2'|trans }}</h1>
-                                    <a href="" class="btn btn-primary py-sm-3 px-sm-5">{{ 'button.more'|trans }}</a>
+                                    <a href="{{ path('placement_personnel') }}" class="btn btn-primary py-sm-3 px-sm-5">{{ "button.more"| trans }}</a>
+                                    <a href="" class="btn btn-light py-sm-3 px-sm-5 ms-3">{{ "button.course"| trans }}</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="w-100" src="{{ asset('images/receptionnistes-costumes-elegants-pendant-heures-travail.jpg') }}" alt="Image">
+                    <div class="carousel-caption">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-7">
+                                    <h1 class="display-2 text-light mb-5 animated slideInDown">{{ 'carousel.slide3'|trans }}</h1>
+                                    <a href="{{ path('conseil_immigration') }}" class="btn btn-primary py-sm-3 px-sm-5">{{ 'button.more'|trans }}</a>
                                     <a href="" class="btn btn-light py-sm-3 px-sm-5 ms-3">{{ 'button.course'|trans }}</a>
                                 </div>
                             </div>
@@ -103,7 +117,7 @@
    {% include 'includes/about-fact.html.twig' %}
     <!-- About End -->
     <!-- Courses Start -->
-    <div class="container-xxl courses my-6 py-6 pb-0">
+    <div class="container-xxl courses my-3 py-6 pb-0">
         <div class="container">
             <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
                 <h6 class="text-primary text-uppercase mb-2">{{ "course_start.h6" |trans }}</h6>
@@ -113,8 +127,8 @@
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="courses-item d-flex flex-column bg-white overflow-hidden h-100">
                         <div class="text-center p-4 pt-0">
-                            <div class="d-inline-block bg-primary text-white fs-5 py-1 px-4 mb-4">$120</div>
-                            <h5 class="mb-3">Cours niveau A1</h5>
+                            <div class="d-inline-block bg-primary text-white fs-5 py-1 px-4 mb-4">1</div>
+                            <h5 class="mb-3">{{ 'header.nav.service1'|trans }}</h5>
                             <p>Tempor erat elitr rebum at clita dolor diam ipsum sit diam amet diam et eos</p>
                             <ol class="breadcrumb justify-content-center mb-0">
                                 <li class="breadcrumb-item small"><i class="fa fa-signal text-primary me-2"></i>Beginner</li>
@@ -122,9 +136,9 @@
                             </ol>
                         </div>
                         <div class="position-relative mt-auto">
-                            <img class="img-fluid" src="http://via.placeholder.com/550x450" alt="">
+                            <img class="img-fluid" src="{{ asset('images/ouvrier-dans-usine.jpg') }}" alt="">
                             <div class="courses-overlay">
-                                <a class="btn btn-outline-primary border-2" href="">Read More</a>
+                                <a class="btn btn-outline-primary border-2" href="{{ path('conseil_employeur') }}">Read More</a>
                             </div>
                         </div>
                     </div>
@@ -132,8 +146,8 @@
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="courses-item d-flex flex-column bg-white overflow-hidden h-100">
                         <div class="text-center p-4 pt-0">
-                            <div class="d-inline-block bg-primary text-white fs-5 py-1 px-4 mb-4">$120</div>
-                            <h5 class="mb-3">Cours niveau A2</h5>
+                            <div class="d-inline-block bg-primary text-white fs-5 py-1 px-4 mb-4">2</div>
+                            <h5 class="mb-3">{{ "header.nav.service2" |trans }}</h5>
                             <p>Tempor erat elitr rebum at clita dolor diam ipsum sit diam amet diam et eos</p>
                             <ol class="breadcrumb justify-content-center mb-0">
                                 <li class="breadcrumb-item small"><i class="fa fa-signal text-primary me-2"></i>Beginner</li>
@@ -141,9 +155,9 @@
                             </ol>
                         </div>
                         <div class="position-relative mt-auto">
-                            <img class="img-fluid" src="http://via.placeholder.com/550x450" alt="">
+                            <img class="img-fluid" src="{{ asset('images/ouvrier-du-batiment-construction-site.jpg') }}" alt="">
                             <div class="courses-overlay">
-                                <a class="btn btn-outline-primary border-2" href="">Read More</a>
+                                <a class="btn btn-outline-primary border-2" href="{{ path('conseil_professionel') }}">Read More</a>
                             </div>
                         </div>
                     </div>
@@ -151,8 +165,8 @@
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="courses-item d-flex flex-column bg-white overflow-hidden h-100">
                         <div class="text-center p-4 pt-0">
-                            <div class="d-inline-block bg-primary text-white fs-5 py-1 px-4 mb-4">$99</div>
-                            <h5 class="mb-3">Cours niveau B1</h5>
+                           <div class="d-inline-block bg-primary text-white fs-5 py-1 px-4 mb-4">3</div>
+                            <h5 class="mb-3">{{ "header.nav.service3" |trans }}</h5>
                             <p>Tempor erat elitr rebum at clita dolor diam ipsum sit diam amet diam et eos</p>
                             <ol class="breadcrumb justify-content-center mb-0">
                                 <li class="breadcrumb-item small"><i class="fa fa-signal text-primary me-2"></i>Beginner</li>
@@ -160,9 +174,48 @@
                             </ol>
                         </div>
                         <div class="position-relative mt-auto">
-                            <img class="img-fluid" src="http://via.placeholder.com/550x450" alt="">
+                            <img class="img-fluid" src="{{ asset('images/fermez-gens-agence-voyage.jpg') }}" alt="">
                             <div class="courses-overlay">
-                                <a class="btn btn-outline-primary border-2" href="">Read More</a>
+                                <a class="btn btn-outline-primary border-2" href="{{ path('placement_personnel') }}">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="courses-item d-flex flex-column bg-white overflow-hidden h-100">
+                        <div class="text-center p-4 pt-0">
+                            <div class="d-inline-block bg-primary text-white fs-5 py-1 px-4 mb-4">4</div>
+                            <h5 class="mb-3">{{ "header.nav.service4" |trans }}</h5>
+                            <p>Tempor erat elitr rebum at clita dolor diam ipsum sit diam amet diam et eos</p>
+                            <ol class="breadcrumb justify-content-center mb-0">
+                                <li class="breadcrumb-item small"><i class="fa fa-signal text-primary me-2"></i>Beginner</li>
+                                <li class="breadcrumb-item small"><i class="fa fa-calendar-alt text-primary me-2"></i>3 Week</li>
+                            </ol>
+                        </div>
+                        <div class="position-relative mt-auto">
+                            <img class="img-fluid" src="{{ asset('images/receptionnistes-costumes-elegants-pendant-heures-travail.jpg') }}" alt="">
+                            <div class="courses-overlay">
+                                <a class="btn btn-outline-primary border-2" href="{{ path('conseil_immigration') }}">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="courses-item d-flex flex-column bg-white overflow-hidden h-100">
+                        <div class="text-center p-4 pt-0">
+                            <div class="d-inline-block bg-primary text-white fs-5 py-1 px-4 mb-4">5</div>
+                            <h5 class="mb-3">{{ "header.nav.service5" |trans }}</h5>
+                            <p>Tempor erat elitr rebum at clita dolor diam ipsum sit diam amet diam et eos</p>
+                            <ol class="breadcrumb justify-content-center mb-0">
+                                <li class="breadcrumb-item small"><i class="fa fa-signal text-primary me-2"></i>Beginner</li>
+                                <li class="breadcrumb-item small"><i class="fa fa-calendar-alt text-primary me-2"></i>3 Week</li>
+                            </ol>
+                        </div>
+                        <div class="position-relative mt-auto">
+                            <img class="img-fluid" src="{{ asset('images/femme-afro-americaine-travail-medecin-tenant-bouteille-medicament.jpg') }}" alt="femme afro-americaine-travail-medecin-tenant-bouteille-medicament">
+                            <div class="courses-overlay">
+                                <a class="btn btn-outline-primary border-2" href="{{ path('promotion_integration') }}">Read More</a>
                             </div>
                         </div>
                     </div>
@@ -170,8 +223,8 @@
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="courses-item d-flex flex-column bg-white overflow-hidden h-100">
                         <div class="text-center p-4 pt-0">
-                            <div class="d-inline-block bg-primary text-white fs-5 py-1 px-4 mb-4">$99</div>
-                            <h5 class="mb-3">Cours niveau B2</h5>
+                           <div class="d-inline-block bg-primary text-white fs-5 py-1 px-4 mb-4">6</div>
+                            <h5 class="mb-3">{{ "header.nav.service6" |trans }}</h5>
                             <p>Tempor erat elitr rebum at clita dolor diam ipsum sit diam amet diam et eos</p>
                             <ol class="breadcrumb justify-content-center mb-0">
                                 <li class="breadcrumb-item small"><i class="fa fa-signal text-primary me-2"></i>Beginner</li>
@@ -179,28 +232,9 @@
                             </ol>
                         </div>
                         <div class="position-relative mt-auto">
-                            <img class="img-fluid" src="http://via.placeholder.com/550x450" alt="">
+                            <img class="img-fluid" src="{{ asset('images/ingenieur.jpg') }}" alt="">
                             <div class="courses-overlay">
-                                <a class="btn btn-outline-primary border-2" href="">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="courses-item d-flex flex-column bg-white overflow-hidden h-100">
-                        <div class="text-center p-4 pt-0">
-                            <div class="d-inline-block bg-primary text-white fs-5 py-1 px-4 mb-4">$99</div>
-                            <h5 class="mb-3">Cours niveau C</h5>
-                            <p>Tempor erat elitr rebum at clita dolor diam ipsum sit diam amet diam et eos</p>
-                            <ol class="breadcrumb justify-content-center mb-0">
-                                <li class="breadcrumb-item small"><i class="fa fa-signal text-primary me-2"></i>Beginner</li>
-                                <li class="breadcrumb-item small"><i class="fa fa-calendar-alt text-primary me-2"></i>3 Week</li>
-                            </ol>
-                        </div>
-                        <div class="position-relative mt-auto">
-                            <img class="img-fluid" src="http://via.placeholder.com/550x450" alt="">
-                            <div class="courses-overlay">
-                                <a class="btn btn-outline-primary border-2" href="">Read More</a>
+                                <a class="btn btn-outline-primary border-2" href="{{ path('developpement_personnel') }}">Read More</a>
                             </div>
                         </div>
                     </div>
@@ -222,8 +256,8 @@
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
                     <h6 class="text-primary text-uppercase mb-2">{{ "feature_start.h6"|trans }}</h6>
-                    <h1 class="display-6 mb-4">{{ "feature_start.h1"|trans }}</h1>
-                    <p class="mb-5">{{ "feature_start.p"|trans }}</p>
+                    <h1 class="display-6 mb-4">{{ "feature_start.h1"|trans|raw  }}</h1>
+                    <p class="mb-5">{{ "feature_start.p"|trans|raw  }}</p>
                     <div class="row gy-5 gx-4">
                         <div class="col-sm-6 wow fadeIn" data-wow-delay="0.1s">
                             <div class="d-flex align-items-center mb-3">
@@ -265,8 +299,8 @@
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="position-relative overflow-hidden pe-5 pt-5 h-100" style="min-height: 400px;">
-                        <img class="position-absolute w-100 h-100" src="http://via.placeholder.com/600x600" alt="" style="object-fit: cover;">
-                        <img class="position-absolute top-0 end-0 bg-white ps-3 pb-3" src="http://via.placeholder.com/200x200" alt="" style="width: 200px; height: 200px">
+                        <img class="position-absolute w-100 h-100" src="{{ asset('images/travailleur-usine-feminin-serieux-parlant-au-patron-machine-sol-usine-pointant-ecran-tablette.jpg') }}" alt="" style="object-fit: cover;">
+                        <img class="position-absolute top-0 end-0 bg-white ps-3 pb-3" src="{{ asset('images/logo/logo_background.png') }}" alt="" style="width: 200px; height: 200px">
                     </div>
                 </div>
             </div>

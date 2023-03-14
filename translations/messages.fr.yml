@@ -1,6 +1,7 @@
 carousel:
   slide1: "Conseil aux employeurs"
-  slide2: "Conseil en immigration"
+  slide2: "Placement de personnel qualifié"
+  slide3: "Conseil en immigration"
 title:
   home: "Accueil"
   about: "Apropos"
@@ -22,8 +23,8 @@ fact:
   item-tilte3: "Développement du personnel qualifié"
   item-text3: ""
 course_start:
-  h6: "Cours intensifs d'Allemend"
-  h1: "Apprennez dans le meilleur centre d'allemend"
+  h6: "Services"
+  h1: "Nos services"
 feature_start:
   h6: "Pourquoi nous choisir!"
   h1: "Pourquoi nous choisir!"
@@ -44,10 +45,10 @@ feature_start:
 about-fact:
   h6: "Apropos de nous"
   h1: "Nous vous aidons dans votre processus d'immigration"
-  p1: "“OKOHO est spécialisé dans le placement, le conseil et l'accompagnement de travailleurs qualifiés issus de pays tiers sur le marché du travail allemand.
-       En nous basant sur les dernières connaissances en matière de recherche et sur notre propre expérience en tant que personnes originaires de pays tiers, nous vous aidons à trouver les professionnels qui conviennent à votre entreprise et à les fidéliser à long terme.
-       Nous soutenons les professionnels potentiels à chaque étape de leur immigration et de leur intégration, jusqu'à la dernière démarche administrative en Allemagne."
-  p2: "Notre vision est d'offrir les solutions les plus efficaces et les plus efficientes pour une migration internationale durable et digne des professionnels."
+  p1: <span class='fw-bold'>OKOHO</span> est spécialisé dans le placement, le conseil et l'accompagnement de travailleurs qualifiés issus de pays tiers sur le marché du travail allemand.
+       En nous basant sur les dernières connaissances en matière de recherche et sur notre propre expérience en tant que <span class='fw-bold'>personnes originaires de pays tiers</span>, nous vous aidons à trouver les professionnels qui conviennent à votre entreprise et à les fidéliser à long terme.
+       Nous soutenons les professionnels potentiels à chaque étape de leur immigration et de leur intégration, <span class='fw-bold'>jusqu'à la dernière démarche administrative</span> en Allemagne."
+  p2: "<span class='fw-bold'>Notre vision</span> est d'offrir les solutions les plus efficaces et les plus efficientes pour une migration internationale durable et digne des professionnels."
   item1: "Conseil aux employeurs"
   item2: "Conseil aux professionnels internationaux"
   item3: "Placement de personnel qualifié"

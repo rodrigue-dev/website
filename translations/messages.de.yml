@@ -1,6 +1,7 @@
 carousel:
   slide1: "Arbeitgeberberatung"
   slide2: "Einwanderungsberatung"
+  slide3: "Einwanderungsberatung"
 title:
   home: "Home"
   about: "About-us"
@@ -28,7 +29,7 @@ course_start:
 feature_start:
   h6: "Unsere Vision!"
   h1: "Unsere Vision!"
-  p: "Unsere Vision ist, die effektivsten und effizientesten Lösungen für eine nachhaltige, menschenwürdige internationale Fachkräftemigration anzubieten."
+  p: "<span class='fw-bold'>Unsere Vision</span> ist, die effektivsten und effizientesten Lösungen für eine nachhaltige, menschenwürdige internationale Fachkräftemigration anzubieten."
   row:
     item1:
       h5: "Fully Licensed"
@@ -45,10 +46,10 @@ feature_start:
 about-fact:
   h6: "About Us"
   h1: "We help you with your immigration process"
-  p1: "“OKOHO ist spezialisiert auf die Vermittlung, Beratung und Begleitung von Fachkräften aus Drittstaaten auf dem deutschen Arbeitsmarkt.
-       Auf der Grundlage der neuesten Forschungserkenntnisse und unserer eigenen Erfahrungen als Menschen aus Drittstaaten helfen wir Ihnen, die passenden Fachkräfte für Ihr Unternehmen zu finden und sie langfristig zu binden.
-       Wir unterstützen potenzielle Fachkräfte bei jedem Schritt ihrer Einwanderung und ihrer Integration bis zum letzten Behördengang in Deutschland."
-  p2: "Unsere Vision ist, die effektivsten und effizientesten Lösungen für eine nachhaltige, menschenwürdige internationale Fachkräftemigration anzubieten."
+  p1: "<span class='fw-bold'>OKOHO</span> ist spezialisiert auf die Vermittlung, Beratung und Begleitung von Fachkräften aus Drittstaaten auf dem deutschen Arbeitsmarkt.
+       Auf der Grundlage der neuesten Forschungserkenntnisse und unserer eigenen Erfahrungen als <span class='fw-bold'>Menschen aus Drittstaaten </span>helfen wir Ihnen, die passenden Fachkräfte für Ihr Unternehmen zu finden und sie langfristig zu binden.
+       Wir unterstützen potenzielle Fachkräfte bei jedem Schritt ihrer Einwanderung und ihrer Integration <span class='fw-bold'>bis zum letzten Behördengang</span> in Deutschland."
+  p2: "<span class='fw-bold'>Unsere Vision</span> ist, die effektivsten und effizientesten Lösungen für eine nachhaltige, menschenwürdige internationale Fachkräftemigration anzubieten."
   item1: "Arbeitgeberberatung"
   item2: "Beratung Internationaler Fachkräfte"
   item3: "Fachkräftevermittlung"
@@ -134,8 +135,8 @@ services:
     p_3: ""
     p_4: ""
 contact:
-  h1: "Prenez contact avec nous"
-  h6: "Quel est le meilleur moment pour vous contacter ?"
+  h1: "Nehmen Sie Kontakt mit uns auf"
+  h6: "Wann können wir Sie am besten erreichen?"
   name: "Vorname, Name"
   entrepise: "Unternehmen"
   ville: "Ort"
