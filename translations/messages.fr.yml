@@ -72,11 +72,23 @@ header:
     contact: "Contact"
     service: "Services"
     service1: "Conseil aux employeurs"
+
     service2: "Conseil aux professionnels internationaux"
+
     service3: "Placement de personnel qualifié"
+
     service4: "Conseil en immigration"
+
     service5: "Promotion de l'intégration"
+
     service6: "Développement du personnel qualifié"
+
+    service1_p: "Vous souhaitez recruter du personnel qualifié à l'étranger et vous voulez savoir comment cela se passe ?"
+    service2_p: "Vous aimeriez vivre et travailler en Allemagne, mais vous ne savez pas comment vous y prendre ?"
+    service3_p: "Vous cherchez du personnel qualifié et ne savez pas où en trouver ?"
+    service4_p: "Avez-vous des questions relatives à l´immigration vers l´Allemagne?"
+    service5_p: "Avez-vous besoin d´être accompagnés dans vos efforts visant à promouvoir l'intégration en Allemagne de votre personnel venant de pays tiers?"
+    service6_p: "Voulez-vous promouvoir vos collaboratrices/collaborateurs en leur permettant de développer leurs compétences linguistiques et interculturelles?"
     learn: "Cours de langue"
     recrutement: "Recrutement"
     ressource-h: "Ressource humaine"
