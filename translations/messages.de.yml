@@ -77,6 +77,12 @@ header:
     recrutement: "Recruitment"
     ressource-h: "human resource"
     immigration: 'Immigration'
+    service1: "Arbeitgeberberatung"
+    service2: "Beratung Internationaler Fachkräfte"
+    service3: "Fachkräftevermittlung"
+    service4: "Einwanderungsberatung"
+    service5: "Integrationsförderung"
+    service6: "Fachkräfteentwicklung"
     service1_p: "Sie wollen Fachkräfte aus dem Ausland einstellen und möchten wissen, wie das läuft? Sie wissen nicht, womit Sie anfangen sollen?"
     service2_p: "Sie möchten gern in Deutschland leben und arbeiten, aber Sie wissen nicht, wie das geht?"
     service3_p: "Sie suchen Fachkräfte und wissen nicht, wo Sie welche finden?"
