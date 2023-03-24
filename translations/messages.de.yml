@@ -13,12 +13,6 @@ title:
   service4: "Einwanderungsberatung"
   service5: "Integrationsförderung"
   service6: "Fachkräfteentwicklung"
-  service1_p: "Sie wollen Fachkräfte aus dem Ausland einstellen und möchten wissen, wie das läuft? Sie wissen nicht, womit Sie anfangen sollen?"
-  service2_p: "Sie möchten gern in Deutschland leben und arbeiten, aber Sie wissen nicht, wie das geht?"
-  service3_p: "Sie suchen Fachkräfte und wissen nicht, wo Sie welche finden?"
-  service4_p: "Haben Sie Fragen rund um Einwanderung nach Deutschland?"
-  service5_p: "Brauchen Sie Unterstützung für die Förderung der Integration Ihrer Fachkräfte aus Drittstaaten in Deutschland?"
-  service6_p: "Wollen Sie Ihre Mitarbeiter*innen fördern, indem Sie Ihre sprachlichen und interkulturellen Kompetenzen weiterentwickeln?"
 
   learn: "Learn"
   recrutement: "Recruitment"
@@ -83,6 +77,13 @@ header:
     recrutement: "Recruitment"
     ressource-h: "human resource"
     immigration: 'Immigration'
+    service1_p: "Sie wollen Fachkräfte aus dem Ausland einstellen und möchten wissen, wie das läuft? Sie wissen nicht, womit Sie anfangen sollen?"
+    service2_p: "Sie möchten gern in Deutschland leben und arbeiten, aber Sie wissen nicht, wie das geht?"
+    service3_p: "Sie suchen Fachkräfte und wissen nicht, wo Sie welche finden?"
+    service4_p: "Haben Sie Fragen rund um Einwanderung nach Deutschland?"
+    service5_p: "Brauchen Sie Unterstützung für die Förderung der Integration Ihrer Fachkräfte aus Drittstaaten in Deutschland?"
+    service6_p: "Wollen Sie Ihre Mitarbeiter*innen fördern, indem Sie Ihre sprachlichen und interkulturellen Kompetenzen weiterentwickeln?"
+
   getstated: "Get Started"
 footer:
   about: "About us"
