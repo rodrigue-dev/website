@@ -3,10 +3,10 @@ carousel:
   slide2: "Einwanderungsberatung"
   slide3: "Einwanderungsberatung"
 title:
-  home: "Home"
-  about: "About-us"
-  contact: "Contact-us"
-  immigration: "Immigration"
+  home: "Heim"
+  about: "Über uns"
+  contact: "Kontaktiere uns"
+  immigration: "Einwanderung"
   service1: "Arbeitgeberberatung"
   service2: "Beratung Internationaler Fachkräfte"
   service3: "Fachkräftevermittlung"
@@ -25,8 +25,8 @@ fact:
   item-tilte3: "Fachkräfteentwicklung"
   item-text3: ""
 course_start:
-  h6: "Intensive German courses"
-  h1: "Learn in the best German center"
+  h6: "Dienstleistungen"
+  h1: "Unsere Dienstleistungen"
 feature_start:
   h6: "Unsere Vision!"
   h1: "Unsere Vision!"
@@ -56,11 +56,11 @@ about-fact:
   item3: "Fachkräftevermittlung"
   item4: "Einwanderungsberatung"
 team:
-  h6: "Meet The Team"
+  h6: "Triff das Team"
   h1: "We have extensive experience in learning and immigration"
 testimonial:
   h6: "Testimonial"
-  h1: "What Our Clients Say!"
+  h1: "Was unsere Kunden sagen!"
 make-appointment:
   your-name: "Your Name"
   your-email: "Your Email"
@@ -69,14 +69,14 @@ make-appointment:
   title: 'Make Appointment'
 header:
   nav:
-    home: "Home"
-    about: "About"
-    contact: "Contact"
-    service: "Services"
+    home: "Willkommen"
+    about: "Um"
+    contact: "Kontakt"
+    service: "Dienstleistungen"
     learn: "Language course"
     recrutement: "Recruitment"
     ressource-h: "human resource"
-    immigration: 'Immigration'
+    immigration: 'Einwanderung'
     service1: "Arbeitgeberberatung"
     service2: "Beratung Internationaler Fachkräfte"
     service3: "Fachkräftevermittlung"
@@ -90,27 +90,27 @@ header:
     service5_p: "Brauchen Sie Unterstützung für die Förderung der Integration Ihrer Fachkräfte aus Drittstaaten in Deutschland?"
     service6_p: "Wollen Sie Ihre Mitarbeiter*innen fördern, indem Sie Ihre sprachlichen und interkulturellen Kompetenzen weiterentwickeln?"
 
-  getstated: "Get Started"
+  getstated: "Loslegen"
 footer:
-  about: "About us"
-  contact: "Contact us"
-  service: "Our Services"
+  about: "Über uns"
+  contact: "Kontaktiere uns"
+  service: "Unsere Dienstleistungen"
   learn: "Language course"
   recrutement: "Recruitment"
   newsletter: "Newsletter"
   term-condition: "Terms & Condition"
   support: "Support"
-  follow-us: "Follow Us"
-  get-in-touch: "Get In Touch"
-  popular-links: "Popular Links"
-  quick-links: "Quick Links"
+  follow-us: "Folgen Sie uns"
+  get-in-touch: "In Kontakt kommen"
+  popular-links: "Beliebte Links"
+  quick-links: "Schnelle Links"
 button:
-  more: "Read more"
+  more: "Weiterlesen"
   submit: "To validate"
   course: 'Our courses'
   previous: 'Previous'
   next: 'Next'
-  sign-up: "Sign-up"
+  sign-up: "Anmeldung"
 services:
   service1:
     h1_1: ""
