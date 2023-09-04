@@ -43,9 +43,9 @@ feature_start:
       h5: "Best Trainers"
       span: "Magna sea eos sit dolor, ipsum amet ipsum lorem diam eos"
 about-fact:
-  h6: "Apropos de nous"
+  h6: "A propos de nous"
   h1: "Nous vous aidons dans votre processus d'immigration"
-  p1: <span class='fw-bold'>OKOHO</span> est spécialisé dans le placement, le conseil et l'accompagnement de travailleurs qualifiés issus de pays tiers sur le marché du travail allemand.
+  p1: <span class='fw-bold'>OKOHO Consulting</span> est spécialisé dans le placement, le conseil et l'accompagnement de travailleurs qualifiés issus de pays tiers sur le marché du travail allemand.
        En nous basant sur les dernières connaissances en matière de recherche et sur notre propre expérience en tant que <span class='fw-bold'>personnes originaires de pays tiers</span>, nous vous aidons à trouver les professionnels qui conviennent à votre entreprise et à les fidéliser à long terme.
        Nous soutenons les professionnels potentiels à chaque étape de leur immigration et de leur intégration, <span class='fw-bold'>jusqu'à la dernière démarche administrative</span> en Allemagne."
   p2: "<span class='fw-bold'>Notre vision</span> est d'offrir les solutions les plus efficaces et les plus efficientes pour une migration internationale durable et digne des professionnels."
@@ -58,7 +58,7 @@ team:
   h1: "Nous avons une grande experience dans l'apprentissage et immigration"
 testimonial:
   h6: "Testimonial"
-  h1: "Quest ce disent nos apprenants!"
+  h1: "Ce que disent nos clients!"
 make-appointment:
   your-name: "Your Name"
   your-email: "Your Email"
@@ -110,7 +110,7 @@ footer:
 button:
   more: "Lisez plus"
   submit: "Valider"
-  course: 'Nos cours'
+  course: 'Nos services'
   previous: 'Precedant'
   next: 'Suivant'
   sign-up: "Sign-up"
@@ -136,7 +136,7 @@ services:
   service4:
     h1_1: ""
     p_1: "Nous soutenons vos professionnels pour toutes les questions relatives à l'immigration : demande de visa et préparation du voyage. Nous les conseillons sur toutes les questions relatives au voyage et à la vie en Allemagne."
-    p_2: ""
+    p_2: "Avez vous des questions relatives à l'immigration en Allemagne ?"
     p_3: ""
     p_4: ""
   service5:
@@ -145,11 +145,12 @@ services:
     p_2: "En tant que premier point de contact pour vos travailleurs qualifiés issus de pays tiers, nous les conseillons sur toutes les questions possibles concernant les formalités administratives et la vie en Allemagne. Nous soutenons éventuellement vos professionnels originaires de pays tiers et leur famille dans le cadre du regroupement familial, de la scolarisation de leurs enfants, etc."
     p_3: "Grâce à notre offre complète de formations et de workshops, nous vous aidons, vous et votre équipe, à réussir à intégrer le personnel qualifié étranger dans votre entreprise et à le fidéliser."
     p_4: ""
+    p_5: "Avez vous besoin d'etre accompagnés dans vos efforts visant à promouvoir l'intégration en Allemagne de votre personnel venant de pays tiers ?"
   service6:
     h1_1: ""
     p_1: "Grâce à des mesures de perfectionnement du personnel, nous aidons vos spécialistes à développer certaines compétences linguistiques et professionnelles nécessaires à l'activité de votre entreprise."
     p_2: "Notre vaste réseau mondial de centres de cours de langues, de professeurs de langues et d'offres linguistiques, qui répondent à nos normes de qualité exigeantes, aide vos personnels qualifiés issus de pays tiers à apprendre l'allemand avec succès."
-    p_3: ""
+    p_3: "Voulez-vous promouvoir"
     p_4: ""
 contact:
   h1: "Prenez contact avec nous"
@@ -161,4 +162,5 @@ contact:
   email: "E-mail"
   sujet: "Sujet"
   message: "Votre demande "
+  infos: "Votre message a été envoyé avec succès."
   button: "Envoyer"

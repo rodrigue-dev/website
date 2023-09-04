@@ -47,7 +47,7 @@ feature_start:
 about-fact:
   h6: "About Us"
   h1: "We help you with your immigration process"
-  p1: "<span class='fw-bold'>OKOHO</span> ist spezialisiert auf die Vermittlung, Beratung und Begleitung von Fachkräften aus Drittstaaten auf dem deutschen Arbeitsmarkt.
+  p1: "<span class='fw-bold'>OKOHO Consulting</span> ist spezialisiert auf die Vermittlung, Beratung und Begleitung von Fachkräften aus Drittstaaten auf dem deutschen Arbeitsmarkt.
        Auf der Grundlage der neuesten Forschungserkenntnisse und unserer eigenen Erfahrungen als <span class='fw-bold'>Menschen aus Drittstaaten </span>helfen wir Ihnen, die passenden Fachkräfte für Ihr Unternehmen zu finden und sie langfristig zu binden.
        Wir unterstützen potenzielle Fachkräfte bei jedem Schritt ihrer Einwanderung und ihrer Integration <span class='fw-bold'>bis zum letzten Behördengang</span> in Deutschland."
   p2: "<span class='fw-bold'>Unsere Vision</span> ist, die effektivsten und effizientesten Lösungen für eine nachhaltige, menschenwürdige internationale Fachkräftemigration anzubieten."
@@ -133,7 +133,7 @@ services:
   service4:
     h1_1: ""
     p_1: "Wir unterstützen Ihre Fachkräfte bei allen Fragen rund um Einwanderung: Visumantrag und Reisevorbereitung. Wir stehen Ihnen bei allen Fragen rund um Reisen und Leben in Deutschland zur Seite."
-    p_2: ""
+    p_2: "Haben Sie Fragen zur Einwanderung nach Deutschland?"
     p_3: ""
     p_4: ""
   service5:
@@ -142,6 +142,7 @@ services:
     p_2: "Als erste Anlaufstelle für Ihre Fachkräfte aus Drittstaaten beraten wir sie bei allen möglichen Fragen rund um Behörden und Leben in Deutschland. Eventuell unterstützen wir ihre Fachkräfte aus Drittstaaten und deren Familie beim Familiennachzug, bei der Einschulung ihrer Kinder, etc."
     p_3: "Durch unser umfangreiches Trainings- und Workshop-Angebote  unterstützen wir Sie und Ihr Team beim erfolgreichen Onboarding der ausländischen Fachkräfte in Ihrem Unternehmen und bei deren Bindung an Ihr Unternehmen."
     p_4: ""
+    p_5: "Benötigen Sie Unterstützung bei Ihren Bemühungen, die Integration Ihrer Mitarbeiter aus Drittstaaten in Deutschland zu fördern?"
   service6:
     h1_1: ""
     p_1: "Durch Personalentwicklungsmaßnahmen helfen wir Ihren Fachkräften bei der Entwicklung bestimmter sprachlicher und beruflicher Kompetenzen, die für die Tätigkeit in Ihrem Unternehmen erforderlich sind."
@@ -158,4 +159,5 @@ contact:
   email: "E-mail"
   sujet: "Betreff"
   message: "Ihr Anliegen"
-  button: "Envoyer"
+  infos: "Ihre Nachricht wurde erfolgreich gesendet."
+  button: "Senden Sie"

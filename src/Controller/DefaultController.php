@@ -2,6 +2,8 @@
 
 namespace App\Controller;
 
+use App\Entity\Contact;
+use Doctrine\ORM\EntityManagerInterface;
 use Psr\Log\LoggerInterface;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\DependencyInjection\ParameterBag\ParameterBagInterface;
@@ -10,6 +12,10 @@ use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
+use Symfony\Component\Mailer\MailerInterface;
+use Symfony\Component\Mime\Email;
+use Symfony\Bridge\Twig\Mime\TemplatedEmail;
+
 
 class DefaultController extends AbstractController
 {
@@ -50,10 +56,48 @@ class DefaultController extends AbstractController
      * @param Request $request
      * @return Response
      */
-    public function contact(Request $request): Response
-    {
-        return $this->render('default/contact_us.html.twig', [
+    public function contact(Request $request, 
+    EntityManagerInterface $manager,
+    MailerInterface $mailer
+    ): Response
+    { 
+        $contact = new Contact();
+
+
+        if(isset($_POST["email"])){
+        $contact->setFullname($request->get('name'));
+        $contact->setEmail($request->get('email'));
+        $contact->setEntreprise($request->get('entrepise'));
+        $contact->setMessage($request->get('message'));
+        $contact->setSubject($request->get('subject'));
+
+        //dd($contact);
+
+        $manager->persist($contact);
+        $manager->flush();
+
+        //Email 
+        $email = (new TemplatedEmail())
+        ->from($contact->getEmail())
+        ->to('info@okoho.de')
+        ->subject($contact->getSubject())
+        //->text($contact->getEntreprise())
+        //->html($contact->getMessage());
+        ->htmlTemplate('emails/contact.html.twig')
+
+        ->context([
+            'contact' => $contact,
         ]);
+
+    $mailer->send($email);
+
+        $this->addFlash('success', 'Votre message a été envoyé avec succès.');
+        //return $this->redirectToRoute('dashboard');
+        }
+             return $this->render('default/contact_us.html.twig', [
+        ]);
+       
+       
     }
     /**
      * @Route("/{_locale<%app.supported_locales%>}/immigration", name="immigration")
