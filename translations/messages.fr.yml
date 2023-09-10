@@ -21,14 +21,15 @@ fact:
   item-tilte2: "Conseil aux professionnels internationaux"
   item-text2: "Vous aimeriez vivre et travailler en Allemagne, mais vous ne savez pas comment vous y prendre ?"
   item-tilte3: "Développement du personnel qualifié"
-  item-text3: ""
+  item-text3: "Voulez-vous promouvoir vos collaboratrices/collaborateurs en leur permettant de"
+  item-text-all: "...Voir plus"
 course_start:
   h6: "Services"
   h1: "Nos services"
 feature_start:
-  h6: "Pourquoi nous choisir!"
-  h1: "Pourquoi nous choisir!"
-  p: "Notre vision est d'offrir les solutions les plus efficaces et les plus efficientes pour une migration internationale durable et digne des professionnels"
+  h6: ""
+  h1: "Notre Vision!"
+  p: "Notre vision est d'offrir les solutions les plus efficaces et les plus efficientes pour une migration internationale durable et digne des professionnels."
   row:
     item1:
       h5: "Fully Licensed"
@@ -43,9 +44,9 @@ feature_start:
       h5: "Best Trainers"
       span: "Magna sea eos sit dolor, ipsum amet ipsum lorem diam eos"
 about-fact:
-  h6: "Apropos de nous"
+  h6: "A propos de nous"
   h1: "Nous vous aidons dans votre processus d'immigration"
-  p1: <span class='fw-bold'>OKOHO</span> est spécialisé dans le placement, le conseil et l'accompagnement de travailleurs qualifiés issus de pays tiers sur le marché du travail allemand.
+  p1: <span class='fw-bold'>OKOHO Consulting UG</span> est spécialisé dans le placement, le conseil et l'accompagnement de travailleurs qualifiés issus de pays tiers sur le marché du travail allemand.
        En nous basant sur les dernières connaissances en matière de recherche et sur notre propre expérience en tant que <span class='fw-bold'>personnes originaires de pays tiers</span>, nous vous aidons à trouver les professionnels qui conviennent à votre entreprise et à les fidéliser à long terme.
        Nous soutenons les professionnels potentiels à chaque étape de leur immigration et de leur intégration, <span class='fw-bold'>jusqu'à la dernière démarche administrative</span> en Allemagne."
   p2: "<span class='fw-bold'>Notre vision</span> est d'offrir les solutions les plus efficaces et les plus efficientes pour une migration internationale durable et digne des professionnels."
@@ -58,13 +59,13 @@ team:
   h1: "Nous avons une grande experience dans l'apprentissage et immigration"
 testimonial:
   h6: "Testimonial"
-  h1: "Quest ce disent nos apprenants!"
+  h1: "Ce que disent nos clients!"
 make-appointment:
-  your-name: "Your Name"
-  your-email: "Your Email"
-  course-type: "Course type"
-  niveau: "Niveau"
-  title: 'Faire une reservation'
+  your-name: "Votre Nom"
+  your-email: " Email"
+  course-type: "Objet"
+  niveau: "Téléphone"
+  title: 'Nous Contacter'
 header:
   nav:
     home: "Accueil"
@@ -93,24 +94,26 @@ header:
     recrutement: "Recrutement"
     ressource-h: "Ressource humaine"
     immigration: 'Immigration'
-  getstated: "Get Started"
+  getstated: "Commencer"
 footer:
   about: "About us"
-  contact: "Contact us"
+  contact: "Contactez nous"
   service: "Our Services"
   learn: "Cours de langue"
   recrutement: "Recrutement"
   newsletter: "Newsletter"
   term-condition: "Terms & Condition"
   support: "Support"
+  faq: "Faq"
   follow-us: "Follow Us"
   get-in-touch: "Get In Touch"
   popular-links: "Popular Links"
   quick-links: "Quick Links"
+  impressum: "Impressum"
 button:
   more: "Lisez plus"
   submit: "Valider"
-  course: 'Nos cours'
+  course: 'Nos services'
   previous: 'Precedant'
   next: 'Suivant'
   sign-up: "Sign-up"
@@ -118,7 +121,7 @@ services:
   service1:
     h1_1: ""
     p_1: "Vous souhaitez recruter du personnel qualifié à l' étranger et vous voulez savoir comment cela se passe ? Vous ne savez pas par quoi commencer ? Pas de problème : nous vous soutenons dans cette démarche."
-    p_2: "Nous vous informons sur les différentes phases et étapes de la prise de contact avec des travailleurs qualifiés à l'étranger jusqu'à leur entrée en fonction dans votre entreprise."
+    p_2: "En tant que premier point de contact pour vos travailleurs qualifiés issus de pays tiers, nous les conseillons sur toutes les questions possibles concernant les formalités administratives et la vie en Allemagne. Nous soutenons éventuellement vos professionnels originaires de pays tiers et leur famille dans le cadre du regroupement familial, de la scolarisation de leurs enfants, etc."
     p_3: "Dans le cadre de la procédure de reconnaissance des qualifications professionnelles et universitaires de travailleurs qualifiés, une dizaine de points de contact et de portails officiels ont été mis sur pied pour assurer le conseil des entreprises à des candidats à l´immigration vers l´Allemagne. En fonction de vos besoins, nous rassemblons pour vous les informations les plus importantes de ces points de contact et portails et assurons pour vous les démarches nécessaires dans le processus de reconnaissance des diplômes scolaires, universitaires et professionnels de votre futur personnel qualifié venant de l'étranger."
     p_4: "De plus, nous vous fournissons volontiers toutes les informations nécessaires sur les pays d'origine, les artefacts socio-culturels qui favorisent une meilleure compréhension et une collaboration fructueuse avec les professionnels étrangers."
   service2:
@@ -136,15 +139,16 @@ services:
   service4:
     h1_1: ""
     p_1: "Nous soutenons vos professionnels pour toutes les questions relatives à l'immigration : demande de visa et préparation du voyage. Nous les conseillons sur toutes les questions relatives au voyage et à la vie en Allemagne."
-    p_2: ""
+    p_2: "Avez vous des questions relatives à l'immigration en Allemagne ?"
     p_3: ""
     p_4: ""
   service5:
     h1_1: ""
-    p_1: "Nous soutenons vos professionnels dans leur recherche de logement ainsi que dans leurs démarches administratives en Allemagne. Nous les aidons à prendre pied dans la société allemande"
+    p_1: "Nous soutenons vos professionnels dans leur recherche de logement ainsi que dans leurs démarches administratives en Allemagne. Nous les aidons à prendre pied dans la société allemande."
     p_2: "En tant que premier point de contact pour vos travailleurs qualifiés issus de pays tiers, nous les conseillons sur toutes les questions possibles concernant les formalités administratives et la vie en Allemagne. Nous soutenons éventuellement vos professionnels originaires de pays tiers et leur famille dans le cadre du regroupement familial, de la scolarisation de leurs enfants, etc."
     p_3: "Grâce à notre offre complète de formations et de workshops, nous vous aidons, vous et votre équipe, à réussir à intégrer le personnel qualifié étranger dans votre entreprise et à le fidéliser."
     p_4: ""
+    p_5: "Avez vous besoin d'etre accompagnés dans vos efforts visant à promouvoir l'intégration en Allemagne de votre personnel venant de pays tiers ?"
   service6:
     h1_1: ""
     p_1: "Grâce à des mesures de perfectionnement du personnel, nous aidons vos spécialistes à développer certaines compétences linguistiques et professionnelles nécessaires à l'activité de votre entreprise."
@@ -160,5 +164,6 @@ contact:
   phone: "Téléphone"
   email: "E-mail"
   sujet: "Sujet"
-  message: "Votre demande "
+  message: "Votre message "
+  infos: "Votre message a été envoyé avec succès."
   button: "Envoyer"
