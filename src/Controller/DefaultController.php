@@ -85,10 +85,6 @@ class DefaultController extends AbstractController
         ->subject($contact->getSubject())
         ->text($contact->getEntreprise())
         //->text($contact->getVille())
-        //->text($contact->getTelephone())
-        //->html($contact->getMessage());
-        ->htmlTemplate('emails/contact.html.twig')
-
         ->context([
             'contact' => $contact,
         ]);
