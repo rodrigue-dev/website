@@ -6,7 +6,7 @@ title:
   home: "Accueil"
   about: "Apropos"
   contact: "Contact-us"
-  immigration: "Immigration"
+  event&news: "Evénements et nouvelles"
   service1: "Conseil aux employeurs"
   service2: "Conseil aux professionnels internationaux"
   service3: "Placement de personnel qualifié"
@@ -28,21 +28,25 @@ course_start:
   h1: "Nos services"
 feature_start:
   h6: ""
-  h1: "Notre Vision!"
+  h1: "Ce qui nous distingue!"
   p: "Notre vision est d'offrir les solutions les plus efficaces et les plus efficientes pour une migration internationale durable et digne des professionnels."
   row:
     item1:
-      h5: "Fully Licensed"
-      span: "Magna sea eos sit dolor, ipsum amet ipsum lorem diam eos"
+      h5: "Approche basée sur les preuves et la recherche "
+      h6: "scientifique"
+      span: "Nous considérons la recherche scientifique comme la pierre angulaire du développement de nos offres."
     item2:
-      h5: "Online Tracking"
-      span: "Magna sea eos sit dolor, ipsum amet ipsum lorem diam eos"
+      h5: "Solutions basées sur notre expérience"
+      h6: ""
+      span: "Nos propres expériences en tant que professionnels issus de pays tiers constituent la base de nos actions."
     item3:
-      h5: "Afordable Fee"
-      span: "Magna sea eos sit dolor, ipsum amet ipsum lorem diam eos"
+      h5: "Une vision globale de la migration des "
+      h6: "travailleurs qualifiés"
+      span: "Un bon matching et une intégration réussie sont des éléments importants de la migration des travailleurs qualifiés."
     item4:
-      h5: "Best Trainers"
-      span: "Magna sea eos sit dolor, ipsum amet ipsum lorem diam eos"
+      h5: "Approche de la migration des "
+      h6: "travailleurs qualifiés centrée sur l'humain"
+      span: " Pour nous, les travailleurs qualifiés ne sont pas des marchandises, mais des personnes qui méritent d'être valorisées."
 about-fact:
   h6: "A propos de nous"
   h1: "Nous vous aidons dans votre processus d'immigration"
@@ -93,7 +97,7 @@ header:
     learn: "Cours de langue"
     recrutement: "Recrutement"
     ressource-h: "Ressource humaine"
-    immigration: 'Immigration'
+    event&news: "Evénements et nouvelles"
   getstated: "Commencer"
 footer:
   about: "About us"

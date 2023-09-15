@@ -6,7 +6,7 @@ title:
   home: "Heim"
   about: "Über uns"
   contact: "Kontaktiere uns"
-  immigration: "Einwanderung"
+  event&news: "Veranstaltung & Nachrichten"
   service1: "Arbeitgeberberatung"
   service2: "Beratung Internationaler Fachkräfte"
   service3: "Fachkräftevermittlung"
@@ -30,21 +30,25 @@ course_start:
   h1: "Unsere Dienstleistungen"
 feature_start:
   h6: ""
-  h1: "Unsere Vision!"
+  h1: "Was uns ausmacht!"
   p: "<span class='fw-bold'>Unsere Vision</span> ist, die effektivsten und effizientesten Lösungen für eine nachhaltige, menschenwürdige internationale Fachkräftemigration anzubieten."
   row:
     item1:
-      h5: "Fully Licensed"
-      span: "Magna sea eos sit dolor, ipsum amet ipsum lorem diam eos"
+      h5: "Evidenz- und forschungsbasierte "
+      h6: "Herangehensweise"
+      span: "Wir halten Forschung als wichtigste Grundlage für die Entwicklung unserer Angebote"
     item2:
-      h5: "Online Tracking"
-      span: "Magna sea eos sit dolor, ipsum amet ipsum lorem diam eos"
+      h5: "Erfahrungsbasierte Lösungen"
+      h6: ""
+      span: "Eigene Erfahrungen als Fachkräfte aus Drittstaaten gehören zu den Grundlagen unserer Handlungen"
     item3:
-      h5: "Afordable Fee"
-      span: "Magna sea eos sit dolor, ipsum amet ipsum lorem diam eos"
+      h5: "Ganzheitlicher Blick auf die Fachkräftemigration"
+      h6: ""
+      span: "Gutes Matching und erfolgreiche Integration sind wichtige Bestandteile der Fachkräftemigration"
     item4:
-      h5: "Best Trainers"
-      span: "Magna sea eos sit dolor, ipsum amet ipsum lorem diam eos"
+      h5: "Menschenzentrierter Ansatz der "
+      h6: "Fachkräftemigration"
+      span: "Für uns sind Fachkräfte keine Ware, sondern Menschen, die Wertschätzung verdienen"
 about-fact:
   h6: "About Us"
   h1: "We help you with your immigration process"
@@ -77,7 +81,7 @@ header:
     learn: "Language course"
     recrutement: "Recruitment"
     ressource-h: "human resource"
-    immigration: 'Einwanderung'
+    event&news: "Veranstaltung & Nachrichten"
     service1: "Arbeitgeberberatung"
     service2: "Beratung Internationaler Fachkräfte"
     service3: "Fachkräftevermittlung"

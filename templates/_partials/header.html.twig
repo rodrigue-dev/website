@@ -63,7 +63,7 @@
             <a {% if app.request.attributes.get( '_route' ) starts with 'about' %} class="nav-item nav-link active"{% else %} class="nav-item nav-link " {% endif %}
                     href="{{ path('about') }}" class="nav-item nav-link">{{ "header.nav.about"|trans }}</a>
             <a {% if app.request.attributes.get( '_route' ) starts with 'immigration' %} class="nav-item nav-link active"{% else %} class="nav-item nav-link " {% endif %}
-                    href="{{ path('immigration') }}" class="nav-item nav-link">{{ "header.nav.immigration"|trans }}</a>
+                    href="{{ path('immigration') }}" class="nav-item nav-link">{{ "header.nav.event&news"|trans }}</a>
             <div class="nav-item dropdown">
                 <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">{{ "header.nav.service"|trans }}</a>
                 <div class="dropdown-menu bg-light m-0">

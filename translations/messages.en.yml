@@ -6,7 +6,7 @@ title:
   home: "Home"
   about: "About-us"
   contact: "Contact-us"
-  immigration: "Immigration"
+  event&news: "Event & News"
   service1: "Arbeitgeberberatung"
   service2: "Beratung Internationaler Fachkräfte"
   service3: "Fachkräftevermittlung"
@@ -30,21 +30,25 @@ course_start:
   h1: "Learn in the best German center"
 feature_start:
   h6: ""
-  h1: "Our vision!"
+  h1: "What sets us apart!"
   p: "<span class='fw-bold'>Our vision</span>is, to provide the most effective and efficient solutions for sustainable, humane international skilled migration."
   row:
     item1:
-      h5: "Fully Licensed"
-      span: "Magna sea eos sit dolor, ipsum amet ipsum lorem diam eos"
+      h5: "Evidence and research-based approach"
+      h6: ""
+      span: "We consider research  as the main basis for the development of our offers."
     item2:
-      h5: "Online Tracking"
-      span: "Magna sea eos sit dolor, ipsum amet ipsum lorem diam eos"
+      h5: "Experience-based solutions"
+      h6: ""
+      span: "Our own experiences as skilled workers from third countries are the basis of our actions."
     item3:
-      h5: "Afordable Fee"
-      span: "Magna sea eos sit dolor, ipsum amet ipsum lorem diam eos"
+      h5: "Holistic view on skilled labour migration"
+      h6: ""
+      span: "Good matching and successful integration are important components of skilled labour migration."
     item4:
-      h5: "Best Trainers"
-      span: "Magna sea eos sit dolor, ipsum amet ipsum lorem diam eos"
+      h5: "People-centered approach to skilled "
+      h6: "migration"
+      span: "For us, skilled workers are not a commodity, but people who deserve to be valued."
 about-fact:
   h6: "About Us"
   h1: "We help you with your immigration process"
@@ -83,7 +87,7 @@ header:
     learn: "Language course"
     recrutement: "Recruitment"
     ressource-h: "human resource"
-    immigration: 'Immigration'
+    event&news: "Event & News"
     service1_p: "You want to hire skilled workers from abroad and want to know how it works? You don't know where to start?"
     service2_p: "You would like to live and work in Germany, but you don't know how?"
     service3_p: "Are you looking for skilled workers and don't know where to find them?"
