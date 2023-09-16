@@ -24,7 +24,7 @@ fact:
   item-text3: "Vous cherchez du personnel qualifié et ne savez pas où en trouver ?"
   item-text-all: "...Voir plus"
 course_start:
-  h6: "Services"
+  h6: ""
   h1: "Nos services"
 feature_start:
   h6: ""
@@ -50,7 +50,7 @@ feature_start:
 about-fact:
   h6: "A propos de nous"
   h1: "Nous vous aidons dans votre processus d'immigration"
-  p1: <span class='fw-bold'>OKOHO Consulting UG</span> est spécialisé dans le placement, le conseil et l'accompagnement de travailleurs qualifiés issus de pays tiers sur le marché du travail allemand.
+  p1: "<span class='fw-bold'>OKOHO Consulting UG</span> est spécialisé dans le placement, le conseil et l'accompagnement de travailleurs qualifiés issus de pays tiers sur le marché du travail allemand.
        En nous basant sur les dernières connaissances en matière de recherche et sur notre propre expérience en tant que <span class='fw-bold'>personnes originaires de pays tiers</span>, nous vous aidons à trouver les professionnels qui conviennent à votre entreprise et à les fidéliser à long terme.
        Nous soutenons les professionnels potentiels à chaque étape de leur immigration et de leur intégration, <span class='fw-bold'>jusqu'à la dernière démarche administrative</span> en Allemagne."
   p2: "<span class='fw-bold'>Notre vision</span> est d'offrir les solutions les plus efficaces et les plus efficientes pour une migration internationale durable et digne des professionnels."
@@ -59,8 +59,8 @@ about-fact:
   item3: "Placement de personnel qualifié"
   item4: "Conseil en immigration"
 team:
-  h6: "Rencontrez notre équipe"
-  h1: "Nous avons une grande experience dans l'apprentissage et immigration"
+  h6: ""
+  h1: "Ceux qui nous font confiance"
 testimonial:
   h6: "Testimonial"
   h1: "Ce que disent nos clients!"
@@ -73,7 +73,7 @@ make-appointment:
 header:
   nav:
     home: "Accueil"
-    about: "Apropos"
+    about: "A propos"
     contact: "Contact"
     service: "Services"
     service1: "Conseil aux employeurs"
@@ -97,7 +97,7 @@ header:
     learn: "Cours de langue"
     recrutement: "Recrutement"
     ressource-h: "Ressource humaine"
-    event&news: "Evénements et nouvelles"
+    event&news: "Event & News"
   getstated: "Commencer"
 footer:
   about: "About us"
@@ -108,7 +108,7 @@ footer:
   newsletter: "Newsletter"
   term-condition: "Terms & Condition"
   support: "Support"
-  faq: "Faq"
+  faq: "FAQ"
   follow-us: "Follow Us"
   get-in-touch: "Get In Touch"
   popular-links: "Popular Links"

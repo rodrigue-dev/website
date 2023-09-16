@@ -26,7 +26,7 @@ fact:
   item-text3: "Sie suchen Fachkräfte und wissen nicht, wo Sie welche finden?"
   item-text-all: "...Mehr sehen"
 course_start:
-  h6: "Dienstleistungen"
+  h6: ""
   h1: "Unsere Dienstleistungen"
 feature_start:
   h6: ""
@@ -61,8 +61,8 @@ about-fact:
   item3: "Fachkräftevermittlung"
   item4: "Einwanderungsberatung"
 team:
-  h6: "Triff das Team"
-  h1: "We have extensive experience in learning and immigration"
+  h6: ""
+  h1: "Diejenigen, die uns vertrauen"
 testimonial:
   h6: "Testimonial"
   h1: "Was unsere Kunden sagen!"
@@ -81,7 +81,7 @@ header:
     learn: "Language course"
     recrutement: "Recruitment"
     ressource-h: "human resource"
-    event&news: "Veranstaltung & Nachrichten"
+    event&news: "Event & News"
     service1: "Arbeitgeberberatung"
     service2: "Beratung Internationaler Fachkräfte"
     service3: "Fachkräftevermittlung"
@@ -105,7 +105,7 @@ footer:
   newsletter: "Newsletter"
   term-condition: "Terms & Condition"
   support: "Support"
-  faq: "Faq"
+  faq: "FAQ"
   follow-us: "Folgen Sie uns"
   get-in-touch: "In Kontakt kommen"
   popular-links: "Beliebte Links"
@@ -114,7 +114,7 @@ footer:
 button:
   more: "Weiterlesen"
   submit: "Senden Sie"
-  course: 'Our courses'
+  course: 'Our services'
   previous: 'Previous'
   next: 'Next'
   sign-up: "Anmeldung"

@@ -27,10 +27,10 @@ fact:
   item-text3: "You are looking for professionals and do not know where to find them?"
   item-text-all: "...See more"
 course_start:
-  h6: "Intensive German courses"
-  h1: "Learn in the best German center"
+  h6: ""
+  h1: "Our services"
 feature_start:
-  h6: "Our Vision!"
+  h6: "What sets us apart !"
   h1: "Our Vision!"
   p: "<span class='fw-bold'>Our Vision</span> is to provide the most effective and efficient solutions for sustainable, humane international skilled labor migration"
   row:
@@ -62,8 +62,8 @@ about-fact:
   item3: "Placement of skilled workers"
   item4: "Immigration advice"
 team:
-  h6: "Meet The Team"
-  h1: "We have extensive experience in learning and immigration"
+  h6: ""
+  h1: "Those who place their trust in us"
 testimonial:
   h6: "Testimonial"
   h1: "What Our Clients Say!"
@@ -106,7 +106,7 @@ footer:
   newsletter: "Newsletter"
   term-condition: "Terms & Condition"
   support: "Support"
-  faq: "Faq"
+  faq: "FAQ"
   follow-us: "Follow Us"
   get-in-touch: "Get In Touch"
   popular-links: "Popular Links"
@@ -130,7 +130,7 @@ services:
     h1_1: ""
     p_1: "You would like to live and work in Germany, but you don't know how to do it?"
     p_2: "We inform you about the German labor market and support you in all phases and steps until you start working in Germany. We answer all your questions about application, job search, education, recognition process and working in Germany. We support you in the recognition process of your qualifications and help you to get to know the right employers in Germany."
-    p_3: ""
+    p_3: " "
     p_4: ""
   service3:
     h1_1: ""
