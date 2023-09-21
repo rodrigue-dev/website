@@ -2,6 +2,9 @@ carousel:
   slide1: "Conseil aux employeurs"
   slide2: "Placement de personnel qualifié"
   slide3: "Conseil en immigration"
+infos:
+ text: "Notre site est actuellement en chantier. Merci pour votre visite."
+ title: "Information"
 title:
   home: "Accueil"
   about: "Apropos"
@@ -171,3 +174,4 @@ contact:
   message: "Votre message "
   infos: "Votre message a été envoyé avec succès."
   button: "Envoyer"
+

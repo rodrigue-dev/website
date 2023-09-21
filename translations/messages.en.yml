@@ -2,6 +2,9 @@ carousel:
   slide1: "Employer advice"
   slide2: "Immigration advice"
   slide3: "Immigration advice"
+infos:
+ text: "Our site is currently under construction. Thank you for visiting us."
+ title: "Information"
 title:
   home: "Home"
   about: "About-us"
