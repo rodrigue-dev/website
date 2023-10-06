@@ -2,6 +2,9 @@ carousel:
   slide1: "Arbeitgeberberatung"
   slide2: "Einwanderungsberatung"
   slide3: "Einwanderungsberatung"
+infos:
+ text: "Unsere Website befindet sich derzeit im Bau. Vielen Dank für Ihren Besuch."
+ title: "Informationen"
 title:
   home: "Heim"
   about: "Über uns"
