@@ -170,6 +170,26 @@ class DefaultController extends AbstractController
         ]);
     }
     /**
+     * @Route("/{_locale<%app.supported_locales%>}/faq", name="faq")
+     * @param Request $request
+     * @return Response
+     */
+    public function faq(Request $request): Response
+    {
+        return $this->render('default/faq.html.twig', [
+        ]);
+    }
+    /**
+     * @Route("/{_locale<%app.supported_locales%>}/term_condition", name="term_condition")
+     * @param Request $request
+     * @return Response
+     */
+    public function term_condition(Request $request): Response
+    {
+        return $this->render('default/term_condition.html.twig', [
+        ]);
+    }
+    /**
      * @Route("/change_locale/{locale}", name="change_locale")
      */
     public function changeLocale($locale, Request $request)
