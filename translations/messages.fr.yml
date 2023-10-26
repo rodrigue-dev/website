@@ -3,7 +3,7 @@ carousel:
   slide2: "Placement de personnel qualifié"
   slide3: "Conseil en immigration"
 infos:
- text: "Notre site est actuellement en chantier. Merci pour votre visite."
+ text: "Le site web est encore en chantier."
  title: "Information"
 title:
   home: "Accueil"
@@ -63,7 +63,7 @@ about-fact:
   item4: "Conseil en immigration"
 team:
   h6: ""
-  h1: "Ceux qui nous font confiance"
+  h1: "Merci pour votre confiance"
 testimonial:
   h6: "Testimonial"
   h1: "Ce que disent nos clients!"

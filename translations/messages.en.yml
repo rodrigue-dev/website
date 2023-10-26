@@ -3,7 +3,7 @@ carousel:
   slide2: "Immigration advice"
   slide3: "Immigration advice"
 infos:
- text: "Our site is currently under construction. Thank you for visiting us."
+ text: "The web site is still under construction."
  title: "Information"
 title:
   home: "Home"
@@ -34,7 +34,7 @@ course_start:
   h1: "Our services"
 feature_start:
   h6: "What sets us apart !"
-  h1: "Our Vision!"
+  h1: "What sets us apart!"
   p: "<span class='fw-bold'>Our Vision</span> is to provide the most effective and efficient solutions for sustainable, humane international skilled labor migration"
   row:
     item1:
@@ -66,7 +66,7 @@ about-fact:
   item4: "Immigration advice"
 team:
   h6: ""
-  h1: "Those who place their trust in us"
+  h1: "Thank you for your trust"
 testimonial:
   h6: "Testimonial"
   h1: "What Our Clients Say!"

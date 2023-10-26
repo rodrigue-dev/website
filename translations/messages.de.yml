@@ -3,7 +3,7 @@ carousel:
   slide2: "Einwanderungsberatung"
   slide3: "Einwanderungsberatung"
 infos:
- text: "Unsere Website befindet sich derzeit im Bau. Vielen Dank für Ihren Besuch."
+ text: "Die Webseite ist noch im Aufbau."
  title: "Informationen"
 title:
   home: "Heim"
@@ -65,7 +65,7 @@ about-fact:
   item4: "Einwanderungsberatung"
 team:
   h6: ""
-  h1: "Diejenigen, die uns vertrauen"
+  h1: "Vielen Dank für Ihr Vertrauen"
 testimonial:
   h6: "Testimonial"
   h1: "Was unsere Kunden sagen!"

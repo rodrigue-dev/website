@@ -11,9 +11,10 @@
                 <small>Mon - Fri : 09.00 AM - 09.00 PM</small> 
             </div>
 
-            <div class="h-100 d-inline-flex align-items-center">
-                <small class="fa fa-phone text-light me-2"></small>
-                <i class="fa fa-whatsapp text-light me-2"></i>
+            <div class="h-100 d-inline-flex align-items-center ">
+                <i class="fa fa-phone text-light breadcrumb-item"></i>
+                <i class="fa  text-light breadcrumb-item"></i>
+                <i class="fa fa-whatsapp text-light me-2 "></i>
                 <small> +49 1609 6205 012</small>
             </div>
         </div>
@@ -66,7 +67,7 @@
             <a {% if app.request.attributes.get( '_route' ) starts with 'immigration' %} class="nav-item nav-link active"{% else %} class="nav-item nav-link " {% endif %}
                     href="{{ path('immigration') }}" class="nav-item nav-link">{{ "header.nav.event&news"|trans }}</a>
             <div class="nav-item dropdown">
-                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">{{ "header.nav.service"|trans }}</a>
+                <a href="{{ path('service_principal') }}" class="nav-link dropdown-toggle" data-bs-auto-close="outside">{{ "header.nav.service"|trans }}</a>
                 <div class="dropdown-menu bg-light m-0">
                     <a href="{{ path('conseil_employeur') }}" class="dropdown-item">{{ "header.nav.service1"|trans }}</a>
                     <a href="{{ path('conseil_professionel') }}" class="dropdown-item">{{ "header.nav.service2"|trans }}</a>
@@ -79,8 +80,8 @@
             <a {% if app.request.attributes.get( '_route' ) starts with 'contact' %} class="nav-item nav-link active"{% else %} class="nav-item nav-link " {% endif %}
                     href="{{ path('contact') }}" class="nav-item nav-link">{{ "header.nav.contact"|trans }}</a>
         </div>
-        <a href="" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">{{ "header.getstated"|trans }}<i
-                    class="fa fa-arrow-right ms-3"></i></a>
+        <a href="" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">{{ "header.getstated"|trans }}
+        <i class="fa fa-arrow-right ms-3"></i></a>
     </div>
 </nav>
 <!-- Navbar End -->

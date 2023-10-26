@@ -1,63 +1,78 @@
-{% extends 'base.html.twig' %}
-{% block title %}
-    OHOKO| {{ "title.event&news"| trans }}
-{% endblock %}
-{% block body %}
+{% extends 'base.html.twig' %} {% block title %} OHOKO|
+{{ "title.event&news" | trans }}
+{% endblock %} {% block body %}
 
 <!-- Page Header Start -->
-    <div class="container-fluid page-header py-6 my-6 mt-0 wow fadeIn" data-wow-delay="0.1s">
-        <div class="container text-center">
-            <h1 class="display-4 text-white animated slideInDown mb-10">{{ 'header.nav.service7'|trans }}</h1>
-            <nav aria-label="breadcrumb animated slideInDown">
-                <ol class="breadcrumb justify-content-center mb-0">
-                    <li class="breadcrumb-item"><a class="text-white" href="#">Home</a></li>
-                    <li class="breadcrumb-item"><a class="text-white" href="#">Pages</a></li>
-                    <li class="breadcrumb-item text-primary active" aria-current="page">{{ 'header.nav.service7'|trans }}</li>
-                </ol>
-            </nav>
-        </div>
-    </div>
-    <!-- Page Header End -->
-    <div class="container-xxl py-6">
-        <div class="container">
-            <div class="row g-5">
-                <div class="col-lg-10 wow fadeInUp" data-wow-delay="0.5s justify-content-center mb-0">
-                    <div class="h-100">
-                        {# s<h6 class="text-primary text-uppercase mb-2 center"><center>{{ "header.nav.service7"|trans }}</center></h6> #}
-                        <h1 class="display-6 mb-4"><center>{{ "header.nav.service7"|trans }}</center></h1>
-                        <p> {{ "services.service7.t_1"|trans }}</p>
-                        <p class="mb-4">{{ "services.service7.h2_2"|trans }}</p>
-                        <p class="mb-4 justify-content-center">{{ "services.service7.t_3"|trans }}</p>
-                        <p class="mb-4 justify-content-center">{{ "services.service7.t_4"|trans }}</p>
-                        <p class="mb-10"> {{ "services.service7.h1_1"|trans }}</p>
-                        <p class="mb-4 justify-content-center">{{ "services.service7.t_19"|trans }}</p>
-                        <p class="mb-4 justify-content-center">{{ "services.service7.t_21"|trans }}</p>
-                        <p> {{ "services.service7.h1_3"|trans }}</p>
-                        <p class="mb-4 justify-content-center">{{ "services.service7.t_17"|trans }}</p>
-                        <p class="mb-4 justify-content-center">{{ "services.service7.t_29"|trans }}</p>
-                        <ol>
-                        <p class="mb-4 justify-content-center">{{ "services.service7.t_39"|trans }}</p>
-                        <p class="mb-4 justify-content-center">{{ "services.service7.t_5"|trans }}</p>
-                        <p class="mb-4 justify-content-center">{{ "services.service7.t_6"|trans }}</p>
-                        <p class="mb-4 justify-content-center">{{ "services.service7.t_7"|trans }}</p>
-                        </ol>
-                        <p class="mb-4 justify-content-center">{{ "services.service7.t_8"|trans }}</p>
-                        <p class="mb-4 justify-content-center">{{ "services.service7.t_9"|trans }}</p>
-                        <p class="mb-4 justify-content-center">{{ "services.service7.t_10"|trans }}</p>
-                        <ul> 
-                        <p class="mb-4 justify-content-center">{{ "services.service7.t_11"|trans }}</p>
-                        <p class="mb-4 justify-content-center">{{ "services.service7.t_12"|trans }}</p>
-                        <p class="mb-4 justify-content-center">{{ "services.service7.t_13"|trans }}</p>
-                        <p class="mb-4 justify-content-center">{{ "services.service7.t_14"|trans }}</p>
-                        </ul>
-                        <p class="mb-4 justify-content-center">{{ "services.service7.t_15"|trans }}</p>
-                    </div>
-                </div>
+<div
+  class="container-fluid page-header py-6 my-6 mt-0 wow fadeIn"
+  data-wow-delay="0.1s"
+>
+  <div class="container text-center">
+    <h1 class="display-4 text-white animated slideInDown mb-10">
+      {{ "header.nav.event&news" | trans }}
+    </h1>
+    <nav aria-label="breadcrumb animated slideInDown" class="d-none">
+      <ol class="breadcrumb justify-content-center mb-0">
+        <li class="breadcrumb-item"><a class="text-white" href="#">Home</a></li>
+        <li class="breadcrumb-item">
+          <a class="text-white" href="#">Pages</a>
+        </li>
+        <li class="breadcrumb-item text-primary active" aria-current="page">
+          {{ "header.nav.service7" | trans }}
+        </li>
+      </ol>
+    </nav>
+  </div>
+</div>
+<!-- Page Header End -->
+<div class="container-xxl py-6">
+  <div class="container">
+    <div class="row">
+      <div class="card mb-3 col-8">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img
+              src="{{
+                asset(
+                  'images/femme-afro-americaine-travail-medecin-tenant-bouteille-medicament.jpg'
+                )
+              }}"
+              class="img-fluid rounded-start"
+              alt="..."
+            />
+          </div>
+          {% for job in jobs %}
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">{{ job.titre }}</h5>
+              <p class="card-text">
+               {{ job.description }}
+              </p>
+              <p>{{ job.salaire }}</p>
+              <p>{{ job.lieu }}</p>
+              <p>{{ job.heure }}/semaine</p>
+              <p></p>
+              <p class="card-text">
+                <small class="text-muted">Publié le: {{ job.updatedAt|date('d/m/Y') }}</small>
+              </p>
             </div>
+          </div>
         </div>
+      </div>
+       {% endfor %}
+      <div class="card col-4" style="width: 18rem">
+        <img src="{{asset('images/femme-afro-americaine-travail-medecin-tenant-bouteille-medicament.jpg' )}}" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
     </div>
+  </div>
+</div>
 
 {% endblock %}
-
-
-
