@@ -3,9 +3,6 @@
 namespace App\Controller;
 
 use App\Entity\Contact;
-use App\Entity\Jobs;
-use App\Form\JobType;
-use App\Repository\JobsRepository;
 use Doctrine\ORM\EntityManagerInterface;
 use Psr\Log\LoggerInterface;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
@@ -99,25 +96,76 @@ class DefaultController extends AbstractController
         }
              return $this->render('default/contact_us.html.twig', [
         ]);
-       
-       
+    
     }
     /**
-     * @Route("/{_locale<%app.supported_locales%>}/immigration", name="immigration")
+     * @Route("/{_locale<%app.supported_locales%>}/job", name="job")
      * @param Request $request
      * @return Response
      */
-    public function immigration(Request $request, JobsRepository $jobsRepository): Response
+    public function job(Request $request): Response
     {
-        $jobs = new Jobs();
-        
-
-        
-        return $this->render('default/immigration.html.twig', [
-            'jobs' => $jobsRepository->findByNames('Jobs'),
-            'events' => $jobsRepository->findByNames('Events'),
-            'news' => $jobsRepository->findByNames('News')
-            
+        return $this->render('default/job.html.twig', [
+        ]);
+    }
+    /**
+     * @Route("/{_locale<%app.supported_locales%>}/news", name="news")
+     * @param Request $request
+     * @return Response
+     */
+    public function news(Request $request): Response
+    {
+        return $this->render('default/news.html.twig', [
+        ]);
+    }
+    /**
+     * @Route("/{_locale<%app.supported_locales%>}/service", name="service")
+     * @param Request $request
+     * @return Response
+     */
+    public function service(Request $request): Response
+    {
+        return $this->render('default/service.html.twig', [
+        ]);
+    }
+    /**
+     * @Route("/{_locale<%app.supported_locales%>}/event", name="event")
+     * @param Request $request
+     * @return Response
+     */
+    public function event(Request $request): Response
+    {
+        return $this->render('default/event.html.twig', [
+        ]);
+    }
+    /**
+     * @Route("/{_locale<%app.supported_locales%>}/Impressum", name="Impressum")
+     * @param Request $request
+     * @return Response
+     */
+    public function Impressum(Request $request): Response
+    {
+        return $this->render('default/Impressum.html.twig', [
+        ]);
+    }
+    /**
+     * @Route("/{_locale<%app.supported_locales%>}/datenschutzerklaerung", name="datenschutzerklaerung")
+     * @param Request $request
+     * @return Response
+     */
+    public function datenschutzerklaerung(Request $request): Response
+    {
+        return $this->render('default/datenschutzerklaerung.html.twig', [
+        ]);
+    }
+    /**
+     * @Route("/{_locale<%app.supported_locales%>}/newsandevent", name="newsandevent")
+     * @param Request $request
+     * @return Response
+     */
+    public function newsandevent(Request $request): Response
+    {
+        return $this->render('default/newsandevent.html.twig', [
         ]);
     }
     /**
@@ -130,7 +178,7 @@ class DefaultController extends AbstractController
         return $this->render('default/conseil_employeur.html.twig', [
         ]);
     }
-    /**
+     /**
      * @Route("/{_locale<%app.supported_locales%>}/conseil_professionel", name="conseil_professionel")
      * @param Request $request
      * @return Response
@@ -160,17 +208,6 @@ class DefaultController extends AbstractController
         return $this->render('default/conseil_immigration.html.twig', [
         ]);
     }
-
-    /**
-     * @Route("/{_locale<%app.supported_locales%>}/services", name="service_principal")
-     * @param Request $request
-     * @return Response
-     */
-    public function service_principal(Request $request): Response
-    {
-        return $this->render('default/services_principal.html.twig', [
-        ]);
-    }
     /**
      * @Route("/{_locale<%app.supported_locales%>}/promotion_integration", name="promotion_integration")
      * @param Request $request
@@ -189,60 +226,6 @@ class DefaultController extends AbstractController
     public function developpement_personnel(Request $request): Response
     {
         return $this->render('default/developpement_personnel.html.twig', [
-        ]);
-    }
-      /**
-     * @Route("/{_locale<%app.supported_locales%>}/add", name="event&jobs")
-     * @param Request $request
-     * @return Response
-     */
-    public function event_jobs(Request $request, EntityManagerInterface $manager, JobsRepository $jobsRepository): Response
-    {
-       /* $jobs = new Jobs(); 
-
-        if($request->get('jobs_news') !== null){
-           
-            $jobs->setTitre($request->get('titre')); 
-            $jobs->setType($request->get('jobs_news')); 
-            $jobs->setSalaire($request->get('salaire')); 
-            //$jobs->setImageFile($request->get('image')); 
-            $image = $request->files->get('jobs')['imageFile'] ?? null;
-            $jobs->setImageFile($image);
-
-            $jobs->setcreatedAt(new \DateTimeImmutable());
-            $jobs->setupdatedAt(new \DateTimeImmutable());
-            //$jobs->setDescription($request->get('titre')); 
-            //$jobs->setSalaire($request->get('titre'));
-            //$jobs->setTitre($request->get('titre'));
-            //$jobs->setTitre($request->get('titre'));
-            //$jobs->setTitre($request->get('titre'));
-            
-           //setFullname($request->get('name'));
-           
-    
-    
-            $manager->persist($jobs);
-            $manager->flush();    
-
-
-        }
-        return $this->render('default/events_jobs.html.twig', [
-        ]); */
-
-        $jobs = new Jobs();
-        $form = $this->createForm(JobType::class, $jobs);
-        $form->handleRequest($request);
-
-        if ($form->isSubmitted() && $form->isValid()) {
-
-            $jobsRepository->add($jobs, true);
-
-            return $this->redirectToRoute('immigration', [], Response::HTTP_SEE_OTHER);
-        }
-
-        return $this->renderForm('default/events_jobs.html.twig', [
-            'product' => $jobs,
-            'form' => $form,
         ]);
     }
     /**

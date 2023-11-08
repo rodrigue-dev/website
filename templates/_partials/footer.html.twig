@@ -5,7 +5,7 @@
             <div class="col-lg-3 col-md-6">
                 <h4 class="text-white mb-4">{{ "footer.get-in-touch"|trans }}</h4>
                 <h2 class="text-primary mb-4"><img height="120" class="" src="{{ asset('images/logo/logo-white.png') }}" alt=""></h2>
-                <p class="mb-2"><i class="fa fa-map-marker me-3"></i>Langer Steinweg 60, <br/> <span class="ms-4">32825 Blomberg</span> </p>
+                <p class="mb-2"><i class="fa fa-map-marker me-3"></i>Lange Str. 8, <br/> <span class="ms-4">32791 Lage, Germany</span> </p>
                 <p class="mb-2"><i class="fa fa-phone me-2"></i>+49 160 96 20 50 12 </p>
                 <p class="mb-2"><i class="fa fa-envelope me-2"></i>info@okoho.de</p>
             </div>
@@ -13,19 +13,19 @@
                 <h4 class="text-light mb-4">{{ "footer.quick-links"|trans }}</h4>
                 <a class="btn btn-link" href="{{ path('about') }}">{{ "footer.about"|trans }}</a>
                 <a class="btn btn-link" href="{{ path('contact') }}">{{ "footer.contact"|trans }}</a>
-                <a class="btn btn-link" href="">{{ "footer.service"|trans }}</a>
+                <a class="btn btn-link" href="{{ path('service') }}">{{ "footer.service"|trans }}</a>
                 <a class="btn btn-link" href="{{ path('term_condition') }}">{{ "footer.term-condition"|trans }}</a>
-                <a class="btn btn-link" href="{{ path('faq') }}">{{ "footer.faq"|trans }}</a>
-                <a class="btn btn-link" href="">{{ "footer.impressum"|trans }}</a>
+                <a class="btn btn-link" href="">{{ "footer.faq"|trans }}</a>
+                <a class="btn btn-link" href="{{ path('Impressum') }}">{{ "footer.impressum"|trans }}</a>
+                <a class="btn btn-link" href="{{ path('datenschutzerklaerung') }}">{{ "Datenschutzerklärung"|trans }}</a>
             </div>
             <div class="col-lg-3 col-md-6">
                 <h4 class="text-light mb-4">{{ "footer.popular-links"|trans }}</h4>
-                <a class="btn btn-link" href="">{{ "header.nav.service1"|trans }}</a>
-                <a class="btn btn-link" href="">{{ "header.nav.service2"|trans }}</a>
-                <a class="btn btn-link" href="">{{ "header.nav.service3"|trans }}</a>
-                <a class="btn btn-link" href="">{{ "header.nav.service4"|trans }}</a>
-                <a class="btn btn-link" href="">{{ "header.nav.service5"|trans }}</a>
-                <a class="btn btn-link" href="">{{ "header.nav.service3"|trans }}</a>
+                <a class="btn btn-link" href="{{ path('conseil_employeur') }}">{{ "header.nav.service1"|trans }}</a>
+                <a class="btn btn-link" href="{{ path('conseil_professionel') }}">{{ "header.nav.service2"|trans }}</a>
+                <a class="btn btn-link" href="{{ path('placement_personnel') }}">{{ "header.nav.service3"|trans }}</a>
+                <a class="btn btn-link" href="{{ path('conseil_immigration') }}">{{ "header.nav.service4"|trans }}</a>
+                <a class="btn btn-link" href="{{ path('promotion_integration') }}">{{ "header.nav.service5"|trans }}</a>
             </div>
             <div class="col-lg-3 col-md-6">
                 <h4 class="text-light mb-4">{{ "footer.newsletter"|trans }}</h4>
@@ -35,9 +35,9 @@
                         <button class="btn btn-primary">{{ "button.sign-up"|trans }}</button>
                     </div>
                 </form>
-                <h6 class="text-white mt-4 mb-3 d-none">{{ "footer.follow-us"|trans }}</h6>
+                <h6 class="text-danger mt-4 mb-3 d-none">{{ "footer.follow-us"|trans }}Follow us</h6>
                 <div class="d-flex pt-2 d-none">
-                    <a class="btn btn-square btn-outline-light me-1" href=""><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-square btn-outline-light me-1" href=""><i class="fab fa-twitter">twitter</i></a>
                     <a class="btn btn-square btn-outline-light me-1" href=""><i class="fab fa-facebook-f"></i></a>
                     <a class="btn btn-square btn-outline-light me-1" href=""><i class="fab fa-youtube"></i></a>
                     <a class="btn btn-square btn-outline-light me-0" href=""><i class="fab fa-linkedin-in"></i></a>
@@ -58,13 +58,12 @@
             </div>
             <div class="col-md-6 text-center text-md-end d-flex">
                 <i class="fa fa-star text-light ms-5 mt-1"></i>
-               <p><span class="ms-1" >l</span>  Designed By <a href="" style="color:white;">Freepik</a></p>
+               <p><span class="ms-1" >l</span>  Designed By <a href="" style="color:white;">OKOHO Team</a></p>
             </div>
         </div>
     </div>
 </div>
 <!-- Copyright End -->
-
 
 <!-- Back to Top -->
 <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
