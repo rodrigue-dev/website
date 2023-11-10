@@ -198,38 +198,10 @@ class DefaultController extends AbstractController
      */
     public function event_jobs(Request $request, EntityManagerInterface $manager, JobsRepository $jobsRepository): Response
     {
-       /* $jobs = new Jobs(); 
-
-        if($request->get('jobs_news') !== null){
-           
-            $jobs->setTitre($request->get('titre')); 
-            $jobs->setType($request->get('jobs_news')); 
-            $jobs->setSalaire($request->get('salaire')); 
-            //$jobs->setImageFile($request->get('image')); 
-            $image = $request->files->get('jobs')['imageFile'] ?? null;
-            $jobs->setImageFile($image);
-
-            $jobs->setcreatedAt(new \DateTimeImmutable());
-            $jobs->setupdatedAt(new \DateTimeImmutable());
-            //$jobs->setDescription($request->get('titre')); 
-            //$jobs->setSalaire($request->get('titre'));
-            //$jobs->setTitre($request->get('titre'));
-            //$jobs->setTitre($request->get('titre'));
-            //$jobs->setTitre($request->get('titre'));
-            
-           //setFullname($request->get('name'));
-           
-    
-    
-            $manager->persist($jobs);
-            $manager->flush();    
-
-
-        }
-        return $this->render('default/events_jobs.html.twig', [
-        ]); */
+        // $contact->setSubject($request->get('subject')); $choix = $form->get (‘type’)->getData ();
 
         $jobs = new Jobs();
+
         $form = $this->createForm(JobType::class, $jobs);
         $form->handleRequest($request);
 

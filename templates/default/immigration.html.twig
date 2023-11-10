@@ -17,7 +17,7 @@
         <li class="breadcrumb-item">
           <a class="text-white" href="#">Pages</a>
         </li>
-        <li class="breadcrumb-item text-primary active" aria-current="page">
+        <li class="breadcrumb-item text-primary active" aria-current="page">        
           {{ "header.nav.service7" | trans }}
         </li>
       </ol>
@@ -25,32 +25,21 @@
   </div>
 </div>
 <!-- Page Header End -->
+<h1 style="text-align: center;"> Jobs</h1>
 <div class="container-xxl py-6">
   <div class="container">
     <div class="row">
+        {% for job in jobs %}
       <div class="card mb-3 col-8">
-        <div class="row g-0">
-          <div class="col-md-4">
-            <img
-              src="{{
-                asset(
-                  'images/femme-afro-americaine-travail-medecin-tenant-bouteille-medicament.jpg'
-                )
-              }}"
-              class="img-fluid rounded-start"
-              alt="..."
-            />
-          </div>
-          {% for job in jobs %}
+        <div class="row g-0">        
           <div class="col-md-8">
             <div class="card-body">
               <h5 class="card-title">{{ job.titre }}</h5>
               <p class="card-text">
                {{ job.description }}
               </p>
-              <p>{{ job.salaire }}</p>
               <p>{{ job.lieu }}</p>
-              <p>{{ job.heure }}/semaine</p>
+              <p></p>
               <p></p>
               <p class="card-text">
                 <small class="text-muted">Publié le: {{ job.updatedAt|date('d/m/Y') }}</small>
@@ -60,17 +49,66 @@
         </div>
       </div>
        {% endfor %}
-      <div class="card col-4" style="width: 18rem">
-        <img src="{{asset('images/femme-afro-americaine-travail-medecin-tenant-bouteille-medicament.jpg' )}}" class="card-img-top" alt="..." />
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
-          </p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+    
+    </div>
+  </div>
+</div>
+
+
+<h1 style="text-align: center;"> Events</h1>
+<div class="container-xxl py-6">
+  <div class="container">
+    <div class="row">
+        {% for event in events %}
+      <div class="card mb-3 col-8">
+        <div class="row g-0">        
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">{{ event.titre }}</h5>
+              <p class="card-text">
+               {{ event.description }}
+              </p>
+              <p>{{ event.lieu }}</p>
+              <p></p>
+              <p></p>
+              <p class="card-text">
+                <small class="text-muted">Date de debut: {{ event.heure|date('d/m/Y') }}</small>
+                <small class="text-muted">Date de fin: {{ event.getHeureFin()|date('d/m/Y') }}</small>
+              </p>
+            </div>
+          </div>
         </div>
       </div>
+       {% endfor %}
+    
+    </div>
+  </div>
+</div>
+
+
+<h1 style="text-align: center;"> News</h1>
+<div class="container-xxl py-6">
+  <div class="container">
+    <div class="row">
+        {% for newss in news %}
+      <div class="card mb-3 col-8">
+        <div class="row g-0">        
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">{{ newss.titre }}</h5>
+              <p class="card-text">
+               {{ newss.description }}
+              </p>
+              <p>{{ newss.theme }}</p>
+              <p>{{ newss.heure|date('d/m/Y')  }}</p>
+              <img class=" w-2 h-2" src="{{ vich_uploader_asset(newss, 'imageFile')}}" alt={{ newss.imageName }} style="object-fit: cover;">
+
+            </div>
+          </div>
+        </div>
+      </div>
+       {% endfor %}
+    
     </div>
   </div>
 </div>

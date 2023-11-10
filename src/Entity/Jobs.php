@@ -22,9 +22,6 @@ class Jobs
     #[ORM\Column(length: 255, nullable: true)]
     private ?string $description = null;
 
-    #[ORM\Column]
-    private ?int $salaire = null;
-
     // NOTE: This is not a mapped field of entity metadata, just a simple property.
     #[Vich\UploadableField(mapping: 'jobs_news_images', fileNameProperty: 'imageName')]
     private ?File $imageFile = null;
@@ -33,16 +30,10 @@ class Jobs
     private ?string $imageName = null;
 
     #[ORM\Column(length: 255, nullable: true)]
-    private ?string $entreprise = null;
-
-    #[ORM\Column(length: 255, nullable: true)]
     private ?string $lieu = null;
 
-    #[ORM\Column(length: 150, nullable: true)]
-    private ?string $heure = null;
-
     #[ORM\Column(nullable: true)]
-    private ?int $telephone = null;
+    private ?\DateTime $heure = null;
 
     #[ORM\Column(length: 255)]
     private ?string $type = null;
@@ -52,6 +43,12 @@ class Jobs
 
     #[ORM\Column(nullable: true)]
     private ?\DateTimeImmutable $updatedAt = null;
+
+    #[ORM\Column(length: 255, nullable: true)]
+    private ?string $theme = null;
+
+    #[ORM\Column( nullable: true)]
+    private ?\DateTime $heure_fin = null;
 
 
     public function getId(): ?int
@@ -83,18 +80,6 @@ class Jobs
         return $this;
     }
 
-    public function getSalaire(): ?int
-    {
-        return $this->salaire;
-    }
-
-    public function setSalaire(int $salaire): static
-    {
-        $this->salaire = $salaire;
-
-        return $this;
-    }
-
     public function setImageFile(?File $imageFile = null): void
     {
         $this->imageFile = $imageFile;
@@ -121,19 +106,6 @@ class Jobs
         return $this->imageName;
     }
 
-
-    public function getEntreprise(): ?string
-    {
-        return $this->entreprise;
-    }
-
-    public function setEntreprise(?string $entreprise): static
-    {
-        $this->entreprise = $entreprise;
-
-        return $this;
-    }
-
     public function getLieu(): ?string
     {
         return $this->lieu;
@@ -145,63 +117,75 @@ class Jobs
 
         return $this;
     }
-
-    public function getHeure(): ?string
-    {
-        return $this->heure;
-    }
-
-    public function setHeure(string $heure): static
-    {
-        $this->heure = $heure;
-
-        return $this;
-    }
-
-    public function getTelephone(): ?int
-    {
-        return $this->telephone;
-    }
-
-    public function setTelephone(?int $telephone): static
-    {
-        $this->telephone = $telephone;
-
-        return $this;
-    }
-
+    
     public function getType(): ?string
     {
         return $this->type;
     }
-
+    
     public function setType(string $type): static
     {
         $this->type = $type;
 
         return $this;
     }
-
+    
     public function getCreatedAt(): ?\DateTimeImmutable
     {
         return $this->createdAt;
     }
-
+    
     public function setCreatedAt(\DateTimeImmutable $createdAt): static
     {
         $this->createdAt = $createdAt;
-
+        
         return $this;
     }
-
+    
     public function getUpdatedAt(): ?\DateTimeImmutable
     {
         return $this->updatedAt;
     }
-
+    
     public function setUpdatedAt(\DateTimeImmutable $updatedAt): static
     {
         $this->updatedAt = $updatedAt;
+        
+        return $this;
+    }
+    
+    public function getTheme(): ?string
+    {
+        return $this->theme;
+    }
+    
+    public function setTheme(?string $theme): static
+    {
+        $this->theme = $theme;
+        
+        return $this;
+    }
+    
+        public function getHeure(): ?\DateTime
+        {
+            return $this->heure;
+        }
+    
+        public function setHeure(\DateTime $heure): static
+        {
+            $this->heure = $heure;
+    
+            return $this;
+        }
+
+    public function getHeureFin(): ?\DateTime
+    {
+        return $this->heure_fin;
+    }
+
+    public function setHeureFin(?\DateTime $heure_fin): static
+    {
+        $this->heure_fin = $heure_fin;
 
         return $this;
     }

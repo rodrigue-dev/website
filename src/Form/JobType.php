@@ -6,6 +6,7 @@ use App\Entity\Jobs;
 use Symfony\Component\Form\Extension\Core\Type\IntegerType;
 use Symfony\Component\Form\AbstractType;
 use Symfony\Component\Form\Extension\Core\Type\ChoiceType;
+use Symfony\Component\Form\Extension\Core\Type\DateType;
 use Symfony\Component\Form\Extension\Core\Type\SubmitType;
 use Symfony\Component\Form\Extension\Core\Type\TextareaType;
 use Symfony\Component\Form\FormBuilderInterface;
@@ -26,7 +27,7 @@ class JobType extends AbstractType
                     'minlength' => '2',
                     'maxlength' => '50'
                 ],
-                'label' => 'Name',
+                'label' => 'Titre (News/Jobs/Event)',
                 'label_attr' => [
                     'class' => 'form-label mt-4'
                 ],
@@ -41,95 +42,68 @@ class JobType extends AbstractType
                     'minlength' => '2',
                     'maxlength' => '1000'
                 ],
-                'label' => 'Description',
+                'label' => 'Description (News/Jobs/Event)',
                 'label_attr' => [
                     'class' => 'form-label mt-4'
                 ],
                 'constraints' => [
                     new Assert\NotBlank()
-                ]
-            ])
-            ->add('salaire', IntegerType::class, [
-                'attr' => [
-                    'class' => 'form-control w-100 ',
-                   
-                ],
-                'required' => false,
-                'label' => 'Salaire',
-                'label_attr' => [
-                    'class' => 'form-label mt-2 '
-                ],
-                'constraints' => [
-                    new Assert\Positive(),
                 ]
             ])
             ->add('imageFile', VichImageType::class, [
                 'attr' => [
                     'class' => 'mt-4 mb-4 '
                 ],
-                'label' => 'Image',
+                'label' => 'Image (News)',
                 'label_attr' => [
                     'class' => 'form-label mt-4'
-                ]
+                ],
+                'required' => false
             ])
-            ->add('entreprise', TextType::class, [
+            ->add('theme', TextType::class, [
                 'attr' => [
                     'class' => 'form-control w-100 mb-5 ',
-                    'minlength' => '5',
-                    'maxlength' => '100'
+                   
                 ],
-                'label' => 'Entreprise',
+                'label' => 'Theme (News)',
                 'label_attr' => [
                     'class' => 'form-label mt-2 '
                 ],
-                'constraints' => [
-                    new Assert\Length(['min' => 2, 'max' => 50]),
-                    new Assert\NotBlank()
-                ]
+                'required' => false
             ])
             ->add('lieu', TextType::class, [
                 'attr' => [
                     'class' => 'form-control w-100 mb-5 ',
-                    'minlength' => '5',
-                    'maxlength' => '100'
+                    
                 ],
-                'label' => 'Lieu',
+                'label' => 'Lieu (Event)',
                 'label_attr' => [
                     'class' => 'form-label mt-2 '
                 ],
-                'constraints' => [
-                    new Assert\Length(['min' => 2, 'max' => 50]),
-                    new Assert\NotBlank()
-                ]
+                'required' => false
             ])
-            ->add('heure', TextType::class, [
+            ->add('heure', DateType::class, [
                 'attr' => [
-                    'class' => 'form-control w-100 mb-5 ',
-                    'minlength' => '1',
-                    'maxlength' => '100'
+                    'class' => 'form-control mb-5 '
                 ],
-                'label' => 'heure',
+                'widget' => 'single_text',
+                'label' => 'Date (News/Event)',
                 'label_attr' => [
                     'class' => 'form-label mt-2 '
                 ],
-                'constraints' => [
-                    new Assert\Length(['min' => 2, 'max' => 50]),
-                    new Assert\NotBlank()
-                ]
+                'input' => 'datetime'
             ])
-            ->add('telephone', IntegerType::class, [
+            ->add('heure_fin', DateType::class, [
                 'attr' => [
-                    'class' => 'form-control w-100 ',
-                   
+                    'class' => 'form-control mb-5 '
                 ],
-                'required' => false,
-                'label' => 'Telephone',
+                'widget' => 'single_text',
+                'label' => 'Date_fin (Event)',
                 'label_attr' => [
                     'class' => 'form-label mt-2 '
                 ],
-                'constraints' => [
-                    new Assert\Positive(),
-                ]
+                'input' => 'datetime',
+                'required' => false
             ])
             ->add('type', ChoiceType::class, [
                 // les choix sont définis comme un tableau associatif
@@ -137,8 +111,8 @@ class JobType extends AbstractType
                 // les valeurs sont les valeurs internes du champ
                 'choices' => [
                     'Jobs' => 'Jobs',
-                    'Events' => 'Jobs',
-                    'News' => 'Jobs',
+                    'Events' => 'Events',
+                    'News' => 'News',
                 ],
                 // le type d'affichage est défini par l'option expanded
                 // si true, le champ sera rendu comme des radiotypes
