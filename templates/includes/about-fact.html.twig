@@ -16,17 +16,7 @@
                     <h1 class="display-6 mb-4 ">{{ "about-fact.h7"|trans }}</h1>
                         <p>{{ "abouts.h1"|trans}}</p>
                         <p><b>{{ "abouts.p111"|trans}}</b>{{ "abouts.p1"|trans}} </p>
-                        <ul class="mb-4 accordion-body accordion-flush ">
-                        <li><strong>{{ "abouts.p1"|trans}}</strong><strong>{{ "abouts.p112"|trans}}</strong>{{ "abouts.p2"|trans}}<button class="accordion-button collapsed bg-primary text-light border-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">{{ "button.more"|trans}}</button></li>
-                        <div id="collapseTwo" class="accordion-collapse collapse " aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                            <div class="accordion-body">
-                                <li><strong>{{ "abouts.p113"|trans}}</strong>{{ "abouts.p3"|trans}}</li>
-                                <li><strong>{{ "abouts.p114"|trans}}</strong>{{ "abouts.p4"|trans}}</li>
-                                <li><strong>{{ "abouts.p115"|trans}}</strong>{{ "abouts.p5"|trans}}</li>
-                            </div>
-                        </div>
-                            <p> {{ "abouts.p6"|trans}}</li></p>
-                        </ul>
+                        <a href="{{ path('about') }} class="btn btn-primary py-sm-3 px-sm-5 rounded-pill">{{ "button.more"| trans }}</a>
                     </div>
                     </ul>
                 </div>
