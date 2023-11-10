@@ -18,28 +18,61 @@ OKOHO| {{ "title.about"| trans }}
     </div>
     <!-- Page Header End -->
     <!-- About Start -->
-    {% include 'includes/about-fact.html.twig' %}
-    <div class="container-xxl py-6">
+   <div class="container-xxl py-6">
+    <div class="container">
+        <div class="row g-5">
+            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="position-relative overflow-hidden ps-5 pt-5 h-100" style="min-height: 400px;">
+                    <img class="position-absolute w-100 h-100" src="{{ asset('images/femme-africaine-assise-classe-informatique-dame-lunettes-sourit-camera-etudiante-assise-ordinateur.jpg') }}" alt="" style="object-fit: cover;">
+                    <img class="position-absolute top-0 start-0 bg-white pe-3 pb-3" src="{{ asset('images/logo/logo_background.png') }}" alt="" style="width: 200px; height: 200px;">
+                
+                </div>
+                <i class="fa fa-star text-primary ms-5"></i>
+                
+            </div>
+            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="h-100 ">
+                    <h6 class="text-primary text-uppercase mb-2">{{ "about-fact.h6"|trans }}</h6>
+                    <h1 class="display-6 mb-4 ">{{ "about-fact.h7"|trans }}</h1>
+                        <p><strong class ="h4">{{ "abouts.h0"|trans}}</strong>{{ "abouts.h11"|trans}}<strong class ="">{{ "abouts.h12"|trans}}</strong>{{ "abouts.h13"|trans}}<strong class ="">{{ "abouts.h14"|trans}}</strong>{{ "abouts.h15"|trans}}</p>
+                        <ul>
+                        <li><b class ="h6">{{ "abouts.p111"|trans}}</b>{{ "abouts.p1"|trans}} </li>
+                        <li><strong class ="h6">{{ "abouts.p112"|trans}}</strong>{{ "abouts.p2"|trans}}</li>
+                        <li><strong class ="h6">{{ "abouts.p113"|trans}}</strong>{{ "abouts.p3"|trans}}</li>
+                        <li><strong class ="h6">{{ "abouts.p114"|trans}}</strong>{{ "abouts.p4"|trans}}</li>
+                        <li><strong class ="h6">{{ "abouts.p115"|trans}}</strong>{{ "abouts.p5"|trans}}</li>
+                        </ul>
+                        <p>{{ "abouts.p6"|trans}}<strong class ="">{{ "abouts.p61"|trans}}</strong>{{ "abouts.p62"|trans}}</p>
+                    </div>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div
+
+<div class="container-xxl py-6">
         <div class="container">
-            <div class="row g-5 mt-4">
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="position-relative overflow-hidden ps-5 pt-5 h-100" style="min-height: 400px;">
+                        <img class="position-absolute w-100 h-100" src="{{ asset('images/devellopementpersonnel.jpg') }}" alt="" style="object-fit: cover;">
+                        <img class="position-absolute top-0 start-0 bg-white pe-3 pb-3" src="{{ asset('images/logo/logo_background.png') }}" alt="" style="width: 200px; height: 200px;">
+                    </div>
+                <i class="fa fa-star text-primary ms-5"></i>
+                </div>
                 <div class="col-lg-6 wow fadeInUp border border-0.5" data-wow-delay="0.5s">
-                    <h1 class="display-6 mb-4 ">{{ "abouts.h2"|trans }}</h1>
+                    <div class="h-100">
+                       <h1 class="display-6 mb-4 ">{{ "abouts.h2"|trans }}</h1>
                     <div class="h-100">
                         <p class="mb-4">{{ "abouts.p2"|trans }}</p>
                           <h1 class="display-6 mb-4">{{ "abouts.h3"|trans }}</h1>
                         <p class="mb-4">{{ "abouts.p31"|trans }}</p>
                          <h1 class="display-6 mb-4">{{ "abouts.h4"|trans }}</h1>
-                        <p class="mb-4"><b>{{ "abouts.bold.p1"|trans }}</b>{{ "abouts.p41"|trans }}</p>
-                        <p class="mb-4"><b>{{ "abouts.bold.p2"|trans }}</b>{{ "abouts.p42"|trans }}</p>
-                        <p class="mb-4"><b>{{ "abouts.bold.p3"|trans }}</b>{{ "abouts.p43"|trans }}</p>
+                        <p class="mb-4"><b class ="h6">{{ "abouts.bold.p1"|trans }}</b>{{ "abouts.p41"|trans }}</p>
+                        <p class="mb-4"><b class ="h6">{{ "abouts.bold.p2"|trans }}</b>{{ "abouts.p42"|trans }}</p>
+                        <p class="mb-4"><b class ="h6">{{ "abouts.bold.p3"|trans }}</b>{{ "abouts.p43"|trans }}</p>
                     </div>
-                </div>
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="position-relative overflow-hidden ps-5 pt-5 h-100" style="min-height: 400px;">
-                        <img class="position-absolute w-100 h-100" src="{{ asset('images/femme-afro-americaine-travail-medecin-tenant-bouteille-medicament.jpg') }}" alt="" style="object-fit: cover;">
-                        <img class="position-absolute top-0 start-0 bg-white pe-3 pb-3" src="{{ asset('images/logo/logo_background.png') }}" alt="" style="width: 200px; height: 200px;">
-                    </div>
-                    <i class="fa fa-star text-primary ms-5"></i>
                 </div>
             </div>
         </div>
@@ -51,9 +84,9 @@ OKOHO| {{ "title.about"| trans }}
                     <h1 class="display-6 mb-4 ">{{ "abouts.h5"|trans }}</h1>
                     <div class="h-100">
                        <h1 class="display-6 mb-4"></h1>
-                        <p class="mb-4">{{ "abouts.p51"|trans }}</p>
-                        <p class="mb-4">{{ "abouts.p52"|trans }}</p>
-                        <p class="mb-4">{{ "abouts.p53"|trans }}</p>
+                        <p class="mb-4">{{ "abouts.p51"|trans }}<b class ="h6">{{ "abouts.p511"|trans }}</b>{{ "abouts.p5111"|trans }}</p>
+                        <p class="mb-4">{{ "abouts.p52"|trans }}<b class ="h6">{{ "abouts.p521"|trans }}</b>{{ "abouts.p522"|trans }}</p>
+                        <p class="mb-4">{{ "abouts.p53"|trans }}<b class ="h6">{{ "abouts.p531"|trans }}</b>{{ "abouts.p5331"|trans }}<b class ="h6">{{ "abouts.p532"|trans }}</b>{{ "abouts.p5332"|trans }}<b class ="h6">{{ "abouts.p533"|trans }}</b>{{ "abouts.p5333"|trans }}</p>
                         <p class="mb-4">{{ "abouts.p54"|trans }}</p>
                     </div>
                 </div>
@@ -77,8 +110,3 @@ OKOHO| {{ "title.about"| trans }}
     {% include 'includes/team.html.twig' %}
     <!-- Team End -->
 {% endblock %}
-
-
-
-
-

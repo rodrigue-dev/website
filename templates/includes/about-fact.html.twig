@@ -16,7 +16,9 @@
                     <h1 class="display-6 mb-4 ">{{ "about-fact.h7"|trans }}</h1>
                         <p>{{ "abouts.h1"|trans}}</p>
                         <p><b>{{ "abouts.p111"|trans}}</b>{{ "abouts.p1"|trans}} </p>
-                        <a href="{{ path('about') }} class="btn btn-primary py-sm-3 px-sm-5 rounded-pill">{{ "button.more"| trans }}</a>
+                        <div class="col-12">
+                          <a class="btn btn-primary py-3 px-5 rounded-pill" href="{{ path('about') }}" role="button">{{ "button.more"| trans }}</a>
+                        </div>
                     </div>
                     </ul>
                 </div>
