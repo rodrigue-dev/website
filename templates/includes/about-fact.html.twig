@@ -13,38 +13,24 @@
             <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
                 <div class="h-100 ">
                     <h6 class="text-primary text-uppercase mb-2">{{ "about-fact.h6"|trans }}</h6>
-                    <h1 class="display-6 mb-4">{{ "about-fact.h6"|trans }}</h1>
-                    <p> {{ "about-fact.p1"|trans|raw  }}</p>
-                    <p class="mb-4">{{ "about-fact.p2"|trans|raw  }}</p>
-                    <div class="row g-2 mb-4 pb-2">
-                        <div class="col-sm-6">
-                            <i class="fa fa-check text-primary me-2"></i>{{ "about-fact.item1"|trans }}
+                    <h1 class="display-6 mb-4 ">{{ "about-fact.h7"|trans }}</h1>
+                        <p>{{ "abouts.h1"|trans}}</p>
+                        <p><b>{{ "abouts.p111"|trans}}</b>{{ "abouts.p1"|trans}} </p>
+                        <ul class="mb-4 accordion-body accordion-flush ">
+                        <li><strong>{{ "abouts.p1"|trans}}</strong><strong>{{ "abouts.p112"|trans}}</strong>{{ "abouts.p2"|trans}}<button class="accordion-button collapsed bg-primary text-light border-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">{{ "button.more"|trans}}</button></li>
+                        <div id="collapseTwo" class="accordion-collapse collapse " aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <li><strong>{{ "abouts.p113"|trans}}</strong>{{ "abouts.p3"|trans}}</li>
+                                <li><strong>{{ "abouts.p114"|trans}}</strong>{{ "abouts.p4"|trans}}</li>
+                                <li><strong>{{ "abouts.p115"|trans}}</strong>{{ "abouts.p5"|trans}}</li>
+                            </div>
                         </div>
-                        <div class="col-sm-6">
-                            <i class="fa fa-check text-primary me-2"></i>{{ "about-fact.item2"|trans }}
-                        </div>
-                        <div class="col-sm-6">
-                            <i class="fa fa-check text-primary me-2"></i>{{ "about-fact.item3"|trans }}
-                        </div>
-                        <div class="col-sm-6">
-                            <i class="fa fa-check text-primary me-2"></i>{{ "about-fact.item4"|trans }}
-                        </div>
+                            <p> {{ "abouts.p6"|trans}}</li></p>
+                        </ul>
                     </div>
-                    <div class="row g-4">
-                        <div class="col-sm-6">
-                            <a class="btn btn-outline-primary border-2 py-3 px-5 rounded-pill" href="">{{ "button.more"|trans }}</a>
-                        </div>
-                        <div class="col-sm-6">
-                            <a class="d-inline-flex align-items-center btn btn-outline-primary border-2 p-2 rounded-pill" href="{{ path('contact') }}">
-                                    <span class="flex-shrink-0 btn-square bg-primary rounded-circle me-4">
-                                        <i class="fa fa-envelope text-white "></i>
-                                    </span>
-                                <span class="px-3">{{ "header.nav.contact"|trans }}</span>
-                            </a>
-                        </div>
-                    </div>
+                    </ul>
                 </div>
             </div>
         </div>
     </div>
-</div>
+</div

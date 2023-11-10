@@ -13,7 +13,6 @@
         <!-- Mobile Metas -->
         <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
         {% block stylesheets %}
-            {{ encore_entry_link_tags('app') }}
             <!-- Google Web Fonts -->
             <link rel="preconnect" href="https://fonts.googleapis.com">
             <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -46,12 +45,9 @@
     {% include '_partials/header.html.twig' %}
     {% block body %}
 
-            {{ encore_entry_script_tags('app') }}
-
         {% endblock %}
     {% include '_partials/footer.html.twig' %}
     {% block javascripts %}
-            {{ encore_entry_script_tags('app') }}
         <!-- ALL JS FILES-->
         <script src="{{ asset('front/js/new/jquery.min.js') }}"></script>
         <script src="{{ asset('front/js/popper.min.js') }}"></script>
@@ -63,7 +59,6 @@
 
         {#<script src="{{ asset('front/select2/select2.min.js') }}"></script>#}
        <script src="{{ asset('front/js/main.js') }}"></script>
-       <script type="module" src="{{ asset('build/app.js') }}"></script>
         <!-- Load Facebook SDK for JavaScript -->
         <div id="fb-root"></div>
     {#    <script>

@@ -113,8 +113,6 @@
     </div>
     <!-- Facts End -->
 
-    <p id="infos" class="d-none">{{ "infos.text"|trans}}</p>
-    <p id="infos_title" class="d-none">{{ "infos.title"|trans}}</p>
 
     <!-- About Start -->
    {% include 'includes/about-fact.html.twig' %}
@@ -141,7 +139,7 @@
                         <div class="position-relative mt-auto">
                             <img class="img-fluid" src="{{ asset('images/ouvrier-dans-usine.jpg') }}" alt="">
                             <div class="courses-overlay">
-                                <a class="btn btn-outline-primary border-2 rounded-pill" href="{{ path('conseil_employeur') }}">Read More</a>
+                                <a class="btn btn-outline-primary border-2 rounded-pill" href="{{ path('conseil_employeur') }}">{{ "button.more" |trans }}</a>
                             </div>
                         </div>
                         
@@ -163,7 +161,7 @@
                         <div class="position-relative mt-auto">
                             <img class="img-fluid" src="{{ asset('images/ouvrier-du-batiment-construction-site.jpg') }}" alt="">
                             <div class="courses-overlay">
-                                <a class="btn btn-outline-primary border-2 rounded-pill" href="{{ path('conseil_professionel') }}">Read More</a>
+                                <a class="btn btn-outline-primary border-2 rounded-pill" href="{{ path('conseil_professionel') }}">{{ "button.more" |trans }}</a>
                             </div>
                         </div>
                         <i class="fa fa-star text-primary "></i>
@@ -184,7 +182,7 @@
                         <div class="position-relative mt-auto">
                             <img class="img-fluid" src="{{ asset('images/fermez-gens-agence-voyage.jpg') }}" alt="">
                             <div class="courses-overlay">
-                                <a class="btn btn-outline-primary border-2 rounded-pill" href="{{ path('placement_personnel') }}">Read More</a>
+                                <a class="btn btn-outline-primary border-2 rounded-pill" href="{{ path('placement_personnel') }}">{{ "button.more" |trans }}</a>
                             </div>
                         </div>
                         <i class="fa fa-star text-primary "></i>
@@ -206,7 +204,7 @@
                         <div class="position-relative mt-auto">
                             <img class="img-fluid" src="{{ asset('images/receptionnistes-costumes-elegants-pendant-heures-travail.jpg') }}" alt="">
                             <div class="courses-overlay">
-                                <a class="btn btn-outline-primary border-2 rounded-pill" href="{{ path('conseil_immigration') }}">Read More</a>
+                                <a class="btn btn-outline-primary border-2 rounded-pill" href="{{ path('conseil_immigration') }}">{{ "button.more" |trans }}</a>
                             </div>
                         </div>
                         <i class="fa fa-star text-primary"></i>
@@ -227,7 +225,7 @@
                         <div class="position-relative mt-auto">
                             <img class="img-fluid" src="{{ asset('images/femme-afro-americaine-travail-medecin-tenant-bouteille-medicament.jpg') }}" alt="femme afro-americaine-travail-medecin-tenant-bouteille-medicament">
                             <div class="courses-overlay">
-                                <a class="btn btn-outline-primary border-2 rounded-pill" href="{{ path('promotion_integration') }}">Read More</a>
+                                <a class="btn btn-outline-primary border-2 rounded-pill" href="{{ path('promotion_integration') }}">{{ "button.more" |trans }}</a>
                             </div>
                         </div>
                         <i class="fa fa-star text-primary"></i>
@@ -248,7 +246,7 @@
                         <div class="position-relative mt-auto">
                             <img class="img-fluid" src="{{ asset('images/ingenieur.jpg') }}" alt="">
                             <div class="courses-overlay">
-                                <a class="btn btn-outline-primary border-2 rounded-pill" href="{{ path('developpement_personnel') }}">Read More</a>
+                                <a class="btn btn-outline-primary border-2 rounded-pill" href="{{ path('developpement_personnel') }}">{{ "button.more" |trans }}</a>
                             </div>
                         </div>
                         <i class="fa fa-star text-primary "></i>

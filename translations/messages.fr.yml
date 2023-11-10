@@ -2,9 +2,6 @@ carousel:
   slide1: "Conseil aux employeurs"
   slide2: "Placement de personnel qualifié"
   slide3: "Conseil en immigration"
-infos:
- text: "Le site web est encore en chantier."
- title: "Information"
 title:
   home: "Accueil"
   about: "Apropos"
@@ -18,6 +15,10 @@ title:
   service6: "Développement du personnel qualifié"
   recrutement: "Recrutement"
   ressource-humaine: "Ressources humaine"
+  service7: "Term and Condition"
+  service8: "datenschutzerklaerung"
+  service9: "Impressum"
+  service10: "Service"
 fact:
   item-tilte1: "Conseil aux employeurs"
   item-text1: "Vous souhaitez recruter du personnel qualifié à l'étranger et vous voulez savoir comment cela se passe ?"
@@ -52,6 +53,7 @@ feature_start:
       span: " Pour nous, les travailleurs qualifiés ne sont pas des marchandises, mais des personnes qui méritent d'être valorisées."
 about-fact:
   h6: "A propos de nous"
+  h7: "Wer wir sind"
   h1: "Nous vous aidons dans votre processus d'immigration"
   p1: "<span class='fw-bold'>OKOHO Consulting UG</span> est spécialisé dans le placement, le conseil et l'accompagnement de travailleurs qualifiés issus de pays tiers sur le marché du travail allemand.
        En nous basant sur les dernières connaissances en matière de recherche et sur notre propre expérience en tant que <span class='fw-bold'>personnes originaires de pays tiers</span>, nous vous aidons à trouver les professionnels qui conviennent à votre entreprise et à les fidéliser à long terme.
@@ -80,17 +82,12 @@ header:
     contact: "Contact"
     service: "Services"
     service1: "Conseil aux employeurs"
-
     service2: "Conseil aux professionnels internationaux"
-
     service3: "Placement de personnel qualifié"
-
     service4: "Conseil en immigration"
-
     service5: "Promotion de l'intégration"
-
     service6: "Développement du personnel qualifié"
-
+    service8: "Service"
     service1_p: "Vous souhaitez recruter du personnel qualifié à l'étranger et vous voulez savoir comment cela se passe ?"
     service2_p: "Vous aimeriez vivre et travailler en Allemagne, mais vous ne savez pas comment vous y prendre ?"
     service3_p: "Vous cherchez du personnel qualifié et ne savez pas où en trouver ?"
@@ -174,4 +171,3 @@ contact:
   message: "Votre message "
   infos: "Votre message a été envoyé avec succès."
   button: "Envoyer"
-
