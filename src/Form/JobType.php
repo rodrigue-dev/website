@@ -36,7 +36,7 @@ class JobType extends AbstractType
                     new Assert\NotBlank()
                 ]
             ])
-            ->add('description', TextareaType::class,[
+            ->add('descriptions', TextareaType::class,[
                 'attr' => [
                     'class' => 'form-control',
                     'minlength' => '2',
@@ -54,7 +54,7 @@ class JobType extends AbstractType
                 'attr' => [
                     'class' => 'mt-4 mb-4 '
                 ],
-                'label' => 'Image (News)',
+                'label' => 'Image (News/Jobs)',
                 'label_attr' => [
                     'class' => 'form-label mt-4'
                 ],
@@ -91,7 +91,8 @@ class JobType extends AbstractType
                 'label_attr' => [
                     'class' => 'form-label mt-2 '
                 ],
-                'input' => 'datetime'
+                'input' => 'datetime',
+                'required' => false
             ])
             ->add('heure_fin', DateType::class, [
                 'attr' => [

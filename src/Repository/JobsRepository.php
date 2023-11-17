@@ -20,6 +20,7 @@ class JobsRepository extends ServiceEntityRepository
     {
         parent::__construct($registry, Jobs::class);
     }
+
     public function add(Jobs $entity, bool $flush = false): void
     {
         $this->getEntityManager()->persist($entity);
@@ -28,24 +29,54 @@ class JobsRepository extends ServiceEntityRepository
             $this->getEntityManager()->flush();
         }
     }
-//    /**
-//     * @return Jobs[] Returns an array of Jobs objects
-//     */
-    public function findByNames($value): array
-        {
-            return $this->createQueryBuilder('j')
-                ->andWhere('j.type = :val')
-                ->setParameter('val', $value)
-                ->orderBy('j.id', 'ASC')
-                ->getQuery()
-                ->getResult()
-            ;
+
+    public function remove(Jobs $entity, bool $flush = false): void
+    {
+        $this->getEntityManager()->remove($entity);
+
+        if ($flush) {
+            $this->getEntityManager()->flush();
         }
+    }
+
+   /* public function findJob_NewsByName(string $query)
+    {
+
+        $qb = $this->createQueryBuilder('j');
+        $qb
+        ->where(
+            $qb->expr()->andX(
+                $qb->expr()->orX(
+                    $qb->expr()->like('j.type',':query')
+                )
+            )
+        )
+        ->setParameter('query','%'.$query.'%');
+
+
+        return $qb
+                ->getQuery()
+                ->getResult();
+        ;
+    }
+*/
+
+    public function findByTypeOfJobs($type): array
+    {
+        return $this->createQueryBuilder('j')
+            ->andWhere('j.type = :val')
+            ->setParameter('val', $type)
+            ->orderBy('j.id', 'ASC')
+            ->setMaxResults(5)
+            ->getQuery()
+            ->getResult()
+        ;
+    }
 
 //    public function findOneBySomeField($value): ?Jobs
 //    {
-//        return $this->createQueryBuilder('j')
-//            ->andWhere('j.exampleField = :val')
+//        return $this->createQueryBuilder('c')
+//            ->andWhere('c.exampleField = :val')
 //            ->setParameter('val', $value)
 //            ->getQuery()
 //            ->getOneOrNullResult()

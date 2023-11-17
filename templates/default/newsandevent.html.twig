@@ -1,0 +1,119 @@
+{% extends 'base.html.twig' %}
+{% block title %}
+    OHOKO| {{ "title.event&news"| trans }}
+{% endblock %}
+{% block body %}
+
+<!-- Page Header Start -->
+<div
+  class="container-fluid page-header py-6 my-6 mt-0 wow fadeIn"
+  data-wow-delay="0.1s"
+>
+  <div class="container text-center">
+    <h1 class="display-4 text-white animated slideInDown mb-10">
+      {{ "header.nav.event&news" | trans }}
+    </h1>
+    <nav aria-label="breadcrumb animated slideInDown" class="d-none">
+      <ol class="breadcrumb justify-content-center mb-0">
+        <li class="breadcrumb-item"><a class="text-white" href="#">Home</a></li>
+        <li class="breadcrumb-item">
+          <a class="text-white" href="#">Pages</a>
+        </li>
+        <li class="breadcrumb-item text-primary active" aria-current="page">        
+          {{ "header.nav.service7" | trans }}
+        </li>
+      </ol>
+    </nav>
+  </div>
+</div>
+<!-- Page Header End -->
+    
+
+
+<div class="container">
+
+<h1 style="text-align: center;"> Jobs</h1>
+<div class="row mt-5">
+    {% for job in jobs %}
+            <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="position-relative overflow-hidden ps-5 pt-5 h-100" style="min-height: 400px;">
+                    <div class="position-absolute w-50 h-70" style="object-fit: cover; background-color: aqua;">
+                        <h5 style="text-align: center;" class="mt-5">{{ job.titre }}</h5>
+                        <p style="text-align: center;" >{{ job.descriptions }}</p>
+                    </div>
+                    <img class="position-absolute top-0 start-1 pe-3 pb-3" src="{{ vich_uploader_asset(job, 'imageFile')}}" alt={{ job.imageName }} style="width: 100px; height: 100px;">
+                
+                </div>                
+            </div>
+    {% endfor %} 
+         </div>
+
+    <h1 style="text-align: center;"> Events</h1>
+
+<div class="container" >
+    {% for event in events %}
+    <h5 style=" margin-bottom:0; text-align: center;">{{ mois[event.heure|date('n')] }}</h5>
+    <div class="card mb-3" style="max-width: 740px; border-bottom-right-radius:40px!important;" >
+    <div class="row">
+        <div class="col-md-2 border-end" style="background-color:#A9CCE3; ">
+            <div style=" margin-bottom:20px; text-align: center;">
+                <i class="fa fa-calendar text-primary fs-3 my-3 "></i> 
+                <p style=" margin-bottom:0;">{{ event.heure|date('d')}}</p>
+                <small class="mb-4 d-inline">{{ mois[event.heure|date('n')] }} {{ event.heure|date('Y')}}</small>
+                <p style=" margin-bottom:0; margin-top:10px;">{{ event.getHeureFin|date('d')}}</p>
+                <small class="mb-4 d-inline">{{ mois[event.getHeureFin|date('n')] }} {{ event.getHeureFin|date('Y')}}</small>
+            </div>
+        </div>
+        <div class="col-md-10" style="background-color:#D4E6F1; border-bottom-right-radius:40px!important;">
+        <div class="card-body">
+            <h5 class="card-title">{{event.titre}}</h5>
+            <p><i class="fa fa-map-marker me-2"></i><small >{{event.lieu}}</small></p>
+            <p class="card-text">{{event.descriptions}}</p>
+            <div class="d-flex " style="justify-content: space-around;">
+
+                <p><i class="fa fa-plus-circle text-primary fs-5 "></i> <a class="text-primary" href="https://calendar.google.com/calendar">Calendrier</a></p> 
+                <p><i class="fa fa-user-plus text-primary fs-5 "></i> <a class="text-primary" href="">Inscription</a></p> 
+            </div>
+        </div>
+        </div>
+    </div>
+    </div>
+    {% endfor %}   
+    
+</div>
+
+
+
+<h1 style="text-align: center;"> News</h1>
+<div class="container-xxl py-6">
+  <div class="container">
+    <div class="row">
+        {% for newss in news %}
+      <div class="card mb-3 col-8">
+        <div class="row g-0">        
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">{{ newss.titre }}</h5>
+              <p class="card-text">
+               {{ newss.descriptions }}
+              </p>
+              <p>{{ newss.theme }}</p>
+              <p>{{ mois[newss.heure|date('n')] }}</p>
+              <img class=" w-2 h-2" src="{{ vich_uploader_asset(newss, 'imageFile')}}" alt={{ newss.imageName }} style="object-fit: cover;">
+
+            </div>
+          </div>
+        </div>
+      </div>
+       {% endfor %}
+    
+    </div>
+  </div>
+  </div>
+
+</div>
+{% endblock %}
+
+
+
+

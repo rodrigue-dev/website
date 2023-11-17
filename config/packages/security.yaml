@@ -4,7 +4,6 @@ security:
         # 'auto' means to let Symfony choose the best possible password hasher (Argon2 or Bcrypt)
         # https://symfony.com/doc/current/security.html#c-encoding-passwords
         App\Entity\User: 'auto'
-        #enable_authenticator_manager: true
     providers:
         database_users:
             entity: { class: App\Entity\User, property: username }

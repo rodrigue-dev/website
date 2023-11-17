@@ -3,6 +3,7 @@
 namespace App\Entity;
 
 use App\Repository\JobsRepository;
+use Doctrine\DBAL\Types\Types;
 use Doctrine\ORM\Mapping as ORM;
 use Symfony\Component\HttpFoundation\File\File;
 use Vich\UploaderBundle\Mapping\Annotation as Vich;
@@ -18,9 +19,6 @@ class Jobs
 
     #[ORM\Column(length: 150)]
     private ?string $titre = null;
-
-    #[ORM\Column(length: 255, nullable: true)]
-    private ?string $description = null;
 
     // NOTE: This is not a mapped field of entity metadata, just a simple property.
     #[Vich\UploadableField(mapping: 'jobs_news_images', fileNameProperty: 'imageName')]
@@ -50,6 +48,9 @@ class Jobs
     #[ORM\Column( nullable: true)]
     private ?\DateTime $heure_fin = null;
 
+    #[ORM\Column(type: Types::TEXT, nullable: true)]
+    private ?string $descriptions = null;
+
 
     public function getId(): ?int
     {
@@ -64,18 +65,6 @@ class Jobs
     public function setTitre(string $titre): static
     {
         $this->titre = $titre;
-
-        return $this;
-    }
-
-    public function getDescription(): ?string
-    {
-        return $this->description;
-    }
-
-    public function setDescription(?string $description): static
-    {
-        $this->description = $description;
 
         return $this;
     }
@@ -186,6 +175,18 @@ class Jobs
     public function setHeureFin(?\DateTime $heure_fin): static
     {
         $this->heure_fin = $heure_fin;
+
+        return $this;
+    }
+
+    public function getDescriptions(): ?string
+    {
+        return $this->descriptions;
+    }
+
+    public function setDescriptions(?string $descriptions): static
+    {
+        $this->descriptions = $descriptions;
 
         return $this;
     }

@@ -3,8 +3,8 @@ carousel:
   slide2: "Einwanderungsberatung"
   slide3: "Einwanderungsberatung"
 infos:
- text: "Die Webseite ist noch im Aufbau."
- title: "Informationen"
+  text: "Die Webseite ist noch im Aufbau."
+  title: "Informationen"
 title:
   home: "Heim"
   about: "Über uns"
@@ -16,6 +16,9 @@ title:
   service4: "Einwanderungsberatung"
   service5: "Integrationsförderung"
   service6: "Fachkräfteentwicklung"
+  service8: "datenschutzerklaerung"
+  service9: "Impressum"
+  service10: "DIENSTLEISTUNGEN"
 
   learn: "Learn"
   recrutement: "Recruitment"
@@ -93,7 +96,6 @@ about-fact:
          Vermeidung und Bekämpfung jeglicher Diskriminierung</span> sowie <span class='fw-bold'>Kundenorientierung großgeschrieben.</span> "
     p4: "Durch unsere Arbeit nach festgelegten Qualitätszielen und unser Engagement für den Erfolg sorgen wir dafür, dass Ihnen ein Lächeln ins Gesicht gezaubert wird. "
 team:
-  h6: ""
   h1: "Vielen Dank für Ihr Vertrauen"
 testimonial:
   h6: "Testimonial"
@@ -120,6 +122,7 @@ header:
     service4: "Einwanderungsberatung"
     service5: "Integrationsförderung"
     service6: "Fachkräfteentwicklung"
+    service8: "Dienstleistungen"
     service1_p: "Sie wollen Fachkräfte aus dem Ausland einstellen und möchten wissen, wie das läuft? Sie wissen nicht, womit Sie anfangen sollen?"
     service2_p: "Sie möchten gern in Deutschland leben und arbeiten, aber Sie wissen nicht, wie das geht?"
     service3_p: "Sie suchen Fachkräfte und wissen nicht, wo Sie welche finden?"
@@ -130,7 +133,7 @@ header:
   getstated: "Loslegen"
 footer:
   about: "Über uns"
-  contact: "Kontaktiere uns"
+  contact: "Kontaktiere Sie uns"
   service: "Unsere Dienstleistungen"
   learn: "Language course"
   recrutement: "Recruitment"

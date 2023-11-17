@@ -14,8 +14,8 @@
       <nav aria-label="breadcrumb animated slideInDown">
         <ol class="breadcrumb justify-content-center mb-0">
           <li class="breadcrumb-item"><a class="text-white" href="#">Home</a></li>
-          <li class="breadcrumb-item"><a class="text-white" href="#">Services</a></li>
-          <li class="breadcrumb-item text-Secondary active" aria-current="page">{{ 'header.nav.service1'|trans }}</li>
+          <li class="breadcrumb-item"><a class="text-white" href="#">Pages</a></li>
+          <li class="breadcrumb-item text-primary active" aria-current="page">{{ 'header.nav.service1'|trans }}</li>
         </ol>
       </nav>
     </div>
@@ -56,6 +56,14 @@
                 <i class="fa fa-star text-primary ms-5"></i>
         </div>
       </div>
+
+      
+    </div>
+    <div class="row">
+      <div class="col"></div>
+      <div class="col">      <a href="{{ path('conseil_professionel') }}" class="mt-4">{{ "header.nav.service2"|trans }}<i class="bi bi-arrow-right fs-3 "></i></a>
+</div>
+
     </div>
   </div>
 {% endblock %}
