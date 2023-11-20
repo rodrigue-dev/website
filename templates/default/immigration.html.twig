@@ -5,115 +5,18 @@
 {% block body %}
 
 <!-- Page Header Start -->
-<div
-  class="container-fluid page-header py-6 my-6 mt-0 wow fadeIn"
-  data-wow-delay="0.1s"
->
-  <div class="container text-center">
-    <h1 class="display-4 text-white animated slideInDown mb-10">
-      {{ "header.nav.event&news" | trans }}
-    </h1>
-    <nav aria-label="breadcrumb animated slideInDown" class="d-none">
-      <ol class="breadcrumb justify-content-center mb-0">
-        <li class="breadcrumb-item"><a class="text-white" href="#">Home</a></li>
-        <li class="breadcrumb-item">
-          <a class="text-white" href="#">Pages</a>
-        </li>
-        <li class="breadcrumb-item text-primary active" aria-current="page">        
-          {{ "header.nav.service7" | trans }}
-        </li>
-      </ol>
-    </nav>
-  </div>
-</div>
-<!-- Page Header End -->
-<h1 style="text-align: center;"> Jobs</h1>
-<div class="container-xxl py-6">
-  <div class="container">
-    <div class="row">
-        {% for job in jobs %}
-      <div class="card mb-3 col-8">
-        <div class="row g-0">        
-          <div class="col-md-8">
-            <div class="card-body">
-              <h5 class="card-title">{{ job.titre }}</h5>
-              <p class="card-text">
-               {{ job.description }}
-              </p>
-              <p>{{ job.lieu }}</p>
-              <p></p>
-              <p></p>
-              <p class="card-text">
-                <small class="text-muted">Publié le: {{ job.updatedAt|date('d/m/Y') }}</small>
-              </p>
-            </div>
-          </div>
+    <div class="container-fluid page-header py-6 my-6 mt-0 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container text-center">
+            <h1 class="display-4 text-white animated slideInDown mb-10">{{ 'header.nav.event&news'|trans }}</h1>
+            <nav aria-label="breadcrumb animated slideInDown">
+                <ol class="breadcrumb justify-content-center mb-0">
+                    <li class="breadcrumb-item"><a class="text-white" href="#">Home</a></li>
+                    <li class="breadcrumb-item"><a class="text-white" href="#">Pages</a></li>
+                    <li class="breadcrumb-item text-primary active" aria-current="page">{{ 'header.nav.event&news'|trans }}</li>
+                </ol>
+            </nav>
         </div>
-      </div>
-       {% endfor %}
-    
     </div>
-  </div>
-</div>
-
-
-<h1 style="text-align: center;"> Events</h1>
-<div class="container-xxl py-6">
-  <div class="container">
-    <div class="row">
-        {% for event in events %}
-      <div class="card mb-3 col-8">
-        <div class="row g-0">        
-          <div class="col-md-8">
-            <div class="card-body">
-              <h5 class="card-title">{{ event.titre }}</h5>
-              <p class="card-text">
-               {{ event.description }}
-              </p>
-              <p>{{ event.lieu }}</p>
-              <p></p>
-              <p></p>
-              <p class="card-text">
-                <small class="text-muted">Date de debut: {{ event.heure|date('d/m/Y') }}</small>
-                <small class="text-muted">Date de fin: {{ event.getHeureFin()|date('d/m/Y') }}</small>
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-       {% endfor %}
-    
-    </div>
-  </div>
-</div>
-
-
-<h1 style="text-align: center;"> News</h1>
-<div class="container-xxl py-6">
-  <div class="container">
-    <div class="row">
-        {% for newss in news %}
-      <div class="card mb-3 col-8">
-        <div class="row g-0">        
-          <div class="col-md-8">
-            <div class="card-body">
-              <h5 class="card-title">{{ newss.titre }}</h5>
-              <p class="card-text">
-               {{ newss.description }}
-              </p>
-              <p>{{ newss.theme }}</p>
-              <p>{{ newss.heure|date('d/m/Y')  }}</p>
-              <img class=" w-2 h-2" src="{{ vich_uploader_asset(newss, 'imageFile')}}" alt={{ newss.imageName }} style="object-fit: cover;">
-
-            </div>
-          </div>
-        </div>
-      </div>
-       {% endfor %}
-    
-    </div>
-  </div>
-  </div>
     <!-- Page Header End -->
     
 

@@ -1,256 +1,164 @@
 {% extends 'base.html.twig' %}
-
 {% block title %}
-  OKOHO|  {{ 'header.nav.service'|trans }}
+    OHOKO| {{ "title.service10"| trans }}
 {% endblock %}
-
 {% block body %}
-  <!-- Page Header Start -->
-  <div class="container-fluid page-header py-6 my-6 mt-0 wow fadeIn" data-wow-delay="0.1s">
-    <div class="container text-center">
-      <h1 class="display-4 text-white animated slideInDown mb-4">{{ 'header.nav.service'|trans }}</h1>
-      <nav aria-label="breadcrumb animated slideInDown">
-        <ol class="breadcrumb justify-content-center mb-0">
-          <li class="breadcrumb-item"><a class="text-white" href="#">Home</a></li>
-          <li class="breadcrumb-item text-Secondary active" aria-current="page">{{ 'header.nav.service'|trans }}</li>
-        </ol>
-      </nav>
-    </div>
-  </div>
-  <!-- Page Header End -->
-  <div class="container-xxl py-4 mb-2">
-    <div class="container">
-      <div class="row g-5">
-        <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-          <div class="position-relative overflow-hidden ps-5 pt-5 h-100" style="min-height: 400px;">
-            <img class="position-absolute w-100 h-100" src="{{ asset('images/ouvrier-dans-usine.jpg') }}" alt="" style="object-fit: cover;">
-            <img class="position-absolute top-0 start-0 bg-white pe-3 pb-3" src="{{ asset('images/logo/logo_background.png') }}" alt="" style="width: 200px; height: 200px;">
-          </div>
-                <i class="fa fa-star text-primary ms-5"></i>
 
+<!-- Page Header Start -->
+    <div class="container-fluid page-header py-6 my-6 mt-0 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container text-center">
+            <h1 class="display-4 text-white animated slideInDown mb-10">{{ 'header.nav.service8'|trans }}</h1>
+            <nav aria-label="breadcrumb animated slideInDown">
+                <ol class="breadcrumb justify-content-center mb-0">
+                    <li class="breadcrumb-item"><a class="text-white" href="#">Home</a></li>
+                    <li class="breadcrumb-item"><a class="text-white" href="#">Pages</a></li>
+                    <li class="breadcrumb-item text-primary active" aria-current="page">{{ 'header.nav.service8'|trans }}</li>
+                </ol>
+            </nav>
         </div>
-        <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
-          <div class="h-100">
-            <h6 class="text-primary text-uppercase mb-2">{{ "header.nav.service1"|trans }}</h6>
-            <h1 class="display-6 mb-4">{{ "header.nav.service1"|trans }}</h1>
-            <p> {{ "services.service1.p_1"|trans }}</p>
-            <p class="mb-4">{{ "services.service1.p_2"|trans }}</p>
-          </div>
-        </div>
-      </div>
-      <div class="row g-5 mt-4">
-        <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
-          <div class="h-100">
-            <p class="mb-4">{{ "services.service1.p_3"|trans }}</p>
-            <p class="mb-4">{{ "services.service1.p_4"|trans }}</p>
-          </div>
-        </div>
-        <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-          <div class="position-relative overflow-hidden ps-5 pt-5 h-100" style="min-height: 400px;">
-            <img class="position-absolute w-100 h-100" src="{{ asset('images/receptionniste-asiatique-aidant-patient-reception-signant-documents-rapport-medical-pour-recevoir-assistance-assurance-avant-rendez-vous-controle-femme-remplissant-formulaire-inscription-pour-faire-examen.jpg') }}" alt="" style="object-fit: cover;">
-            <img class="position-absolute top-0 start-0 bg-white pe-3 pb-3" src="{{ asset('images/logo/logo_background.png') }}" alt="" style="width: 200px; height: 200px;">
-          </div>
-                <i class="fa fa-star text-primary ms-5"></i>
-        </div>
-      </div>
     </div>
-  </div>
-              
-   
- {# Conseil Professionnel#}      
+    <!-- Page Header End -->
 
-   <div class="container-xxl py-6">
+ <!-- Courses Start -->
+    <div class="container-xxl courses my-3 py-6 pb-0">
         <div class="container">
-            <div class="row g-5">
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="position-relative overflow-hidden ps-5 pt-5 h-100" style="min-height: 400px;">
-                        <img class="position-absolute w-100 h-100" src="{{ asset('images/ouvrier-du-batiment-construction-site.jpg') }}" alt="" style="object-fit: cover;">
-                        <img class="position-absolute top-0 start-0 bg-white pe-3 pb-3" src="{{ asset('images/logo/logo_background.png') }}" alt="" style="width: 200px; height: 200px;">
-                    </div>
-                <i class="fa fa-star text-primary ms-5"></i>
-                </div>
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="h-100">
-                        <h6 class="text-primary text-uppercase mb-2">{{ "header.nav.service2"|trans }}</h6>
-                        <h1 class="display-6 mb-4">{{ "header.nav.service2"|trans }}</h1>
-                        <p> {{ "services.service2.p_1"|trans }}</p>
-                        <p class="mb-4">{{ "services.service2.p_2"|trans }}</p>
-                    </div>
-                </div>
+            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+                <h6 class="text-primary text-uppercase mb-2">{{ "course_start.h6" |trans }}</h6>
+                <h1 class="display-6 mb-4">{{ "course_start.h1" |trans }}</h1>
             </div>
-            {#<div class="row g-5 mt-4">
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="h-100">
-                        <p class="mb-4">{{ "services.service2.p_3"|trans }}</p>
-                        <p class="mb-4">{{ "services.service2.p_4"|trans }}</p>
+            <div class="row g-4 justify-content-center">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="courses-item d-flex flex-column bg-white overflow-hidden h-100">
+                        <div class="text-center p-4 pt-0">
+                            <div class="d-inline-block bg-primary text-white fs-5 py-2 px-3 mb-4 rounded-circle">1</div>
+                            <h5 class="mb-3">{{ 'header.nav.service1'|trans }}</h5>
+                            <p>{{ 'header.nav.service1_p'|trans }}</p>
+                            <ol class="breadcrumb justify-content-center mb-0 d-none">
+                                <li class="breadcrumb-item small"><i class="fa fa-signal text-primary me-2"></i>Beginner</li>
+                                <li class="breadcrumb-item small"><i class="fa fa-calendar-alt text-primary me-2"></i>3 Week</li>
+                            </ol>
+                        </div>
+                        <div class="position-relative mt-auto">
+                            <img class="img-fluid" src="{{ asset('images/ouvrier-dans-usine.jpg') }}" alt="">
+                            <div class="courses-overlay">
+                                <a class="btn btn-outline-primary border-2 rounded-pill" href="{{ path('conseil_employeur') }}">{{ "button.more" |trans }}</a>
+                            </div>
+                        </div>
+                        
+                        <i class="fa fa-star text-primary "></i>
+                            
                     </div>
                 </div>
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="position-relative overflow-hidden ps-5 pt-5 h-100" style="min-height: 400px;">
-                        <img class="position-absolute w-100 h-100" src="http://via.placeholder.com/600x600" alt="" style="object-fit: cover;">
-                        <img class="position-absolute top-0 start-0 bg-white pe-3 pb-3" src="http://via.placeholder.com/200x200" alt="" style="width: 200px; height: 200px;">
-                    </div>
-                </div>
-            </div>#}
-        </div>
-    </div>
-
- {# Conseil Immigration#}      
-
-<div class="container-xxl py-6">
-        <div class="container">
-            <div class="row g-5">
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="position-relative overflow-hidden ps-5 pt-5 h-100" style="min-height: 400px;">
-                        <img class="position-absolute w-100 h-100" src="{{ asset('images/receptionnistes-costumes-elegants-pendant-heures-travail.jpg') }}" alt="" style="object-fit: cover;">
-                        <img class="position-absolute top-0 start-0 bg-white pe-3 pb-3" src="{{ asset('images/logo/logo_background.png') }}" alt="" style="width: 200px; height: 200px;">
-                    </div>
-                <i class="fa fa-star text-primary ms-5"></i>
-
-                </div>
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="h-100">
-                        <h6 class="text-primary text-uppercase mb-2">{{ "header.nav.service4"|trans }}</h6>
-                        <h1 class="display-6 mb-4">{{ "header.nav.service4"|trans }}</h1>
-                        <p class="mb-4">{{ "services.service4.p_2"|trans }}</p>
-                        <p> {{ "services.service4.p_1"|trans }}</p>
-                    </div>
-                </div>
-            </div>
-            {#<div class="row g-5 mt-4">
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="h-100">
-                        <p class="mb-4">{{ "services.service4.p_3"|trans }}</p>
-                        <p class="mb-4">{{ "services.service4.p_4"|trans }}</p>
-                    </div>
-                </div>
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="position-relative overflow-hidden ps-5 pt-5 h-100" style="min-height: 400px;">
-                        <img class="position-absolute w-100 h-100" src="http://via.placeholder.com/600x600" alt="" style="object-fit: cover;">
-                        <img class="position-absolute top-0 start-0 bg-white pe-3 pb-3" src="http://via.placeholder.com/200x200" alt="" style="width: 200px; height: 200px;">
-                    </div>
-                </div>
-            </div>#}
-        </div>
-    </div>
-
-
- {# Developpement Personnel#}      
-
-<div class="container-xxl py-6">
-        <div class="container">
-            <div class="row g-5">
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="position-relative overflow-hidden ps-5 pt-5 h-100" style="min-height: 400px;">
-                        <img class="position-absolute w-100 h-100" src="{{ asset('images/ingenieur.jpg') }}" alt="" style="object-fit: cover;">
-                        <img class="position-absolute top-0 start-0 bg-white pe-3 pb-3" src="{{ asset('images/logo/logo_background.png') }}" alt="" style="width: 200px; height: 200px;">
-                    </div>
-                <i class="fa fa-star text-primary ms-5"></i>
-                </div>
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="h-100">
-                        <h6 class="text-primary text-uppercase mb-2">{{ "header.nav.service6"|trans }}</h6>
-                        <h1 class="display-6 mb-4">{{ "header.nav.service6"|trans }}</h1>
-                        <p> {{ "services.service6.p_1"|trans }}</p>
-                        <p class="mb-4">{{ "services.service6.p_2"|trans }}</p>
-                        <p class="mb-4">{{ "services.service6.p_3"|trans }}</p>
-                    </div>
-                </div>
-            </div>
-          {#  <div class="row g-5 mt-4">
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="h-100">
-                        <p class="mb-4">{{ "services.service6.p_3"|trans }}</p>
-                        <p class="mb-4">{{ "services.service6.p_4"|trans }}</p>
-                    </div>
-                </div>
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="position-relative overflow-hidden ps-5 pt-5 h-100" style="min-height: 400px;">
-                        <img class="position-absolute w-100 h-100" src="http://via.placeholder.com/600x600" alt="" style="object-fit: cover;">
-                        <img class="position-absolute top-0 start-0 bg-white pe-3 pb-3" src="http://via.placeholder.com/200x200" alt="" style="width: 200px; height: 200px;">
-                    </div>
-                </div>
-            </div>#}
-        </div>
-    </div>
-
- {# Placement Personnel #}      
-
-
-<div class="container-xxl py-6">
-      <div class="container">
-         <div class="row g-5">
-            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-               <div class="position-relative overflow-hidden ps-5 pt-5 h-100" style="min-height: 400px;">
-                  <img class="position-absolute w-100 h-100" src="{{ asset('images/fermez-gens-agence-voyage.jpg') }}" alt="" style="object-fit: cover;">
-                  <img class="position-absolute top-0 start-0 bg-white pe-3 pb-3" src="{{ asset('images/logo/logo_background.png') }}" alt="" style="width: 200px; height: 200px;">
-               </div>
-                <i class="fa fa-star text-primary ms-5"></i>
-            </div>
-            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
-               <div class="h-100">
-                  <h6 class="text-primary text-uppercase mb-2">{{ "header.nav.service3"|trans }}</h6>
-                  <h1 class="display-6 mb-4">{{ "header.nav.service3"|trans }}</h1>
-                  <p> {{ "services.service3.p_1"|trans }}</p>
-                  <p class="mb-4">{{ "services.service3.p_2"|trans }}</p>
-               </div>
-            </div>
-         </div>
-        {# <div class="row g-5 mt-4">
-            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
-               <div class="h-100">
-                  <p class="mb-4">{{ "services.service3.p_3"|trans }}</p>
-                  <p class="mb-4">{{ "services.service3.p_4"|trans }}</p>
-               </div>
-            </div>
-            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-               <div class="position-relative overflow-hidden ps-5 pt-5 h-100" style="min-height: 400px;">
-                  <img class="position-absolute w-100 h-100" src="http://via.placeholder.com/600x600" alt="" style="object-fit: cover;">
-                  <img class="position-absolute top-0 start-0 bg-white pe-3 pb-3" src="http://via.placeholder.com/200x200" alt="" style="width: 200px; height: 200px;">
-               </div>
-            </div>
-         </div>#}
-      </div>
-   </div>
-
-{# Promotion Integration #}      
-
- <div class="container-xxl py-6">
-        <div class="container">
-            <div class="row g-5">
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="position-relative overflow-hidden ps-5 pt-5 h-100" style="min-height: 400px;">
-                        <img class="position-absolute w-100 h-100" src="{{ asset('images/receptionniste-asiatique-aidant-patient-reception-signant-documents-rapport-medical-pour-recevoir-assistance-assurance-avant-rendez-vous-controle-femme-remplissant-formulaire-inscription-pour-faire-examen.jpg') }}" alt="" style="object-fit: cover;">
-                        <img class="position-absolute top-0 start-0 bg-white pe-3 pb-3" src="{{ asset('images/logo/logo_background.png') }}" alt="" style="width: 200px; height: 200px;">
-                    </div>
-                <i class="fa fa-star text-primary ms-5"></i>
-                </div>
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="h-100">
-                        <h6 class="text-primary text-uppercase mb-2">{{ "header.nav.service5"|trans }}</h6>
-                        <h1 class="display-6 mb-4">{{ "header.nav.service5"|trans }}</h1>
-                        <p class="mb-4">{{ "services.service5.p_5"|trans }}</p>
-                        <p> {{ "services.service5.p_1"|trans }}</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row g-5 mt-4">
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="h-100">
-                        <p class="mb-4">{{ "services.service1.p_2"|trans }}</p>
-                        <p class="mb-4">{{ "services.service5.p_3"|trans }}</p>
-                        <p class="mb-4">{{ "services.service5.p_4"|trans }}</p>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="courses-item d-flex flex-column bg-white overflow-hidden h-100">
+                        <div class="text-center p-4 pt-0">
+                            <div class="d-inline-block bg-primary text-white fs-5 py-2 px-3 mb-4 rounded-circle">2</div>
+                            <h5 class="mb-3">{{ "header.nav.service2" |trans }}</h5>
+                            <p>{{ 'header.nav.service2_p'|trans }}</p>
+                            <ol class="breadcrumb justify-content-center mb-0 d-none">
+                                <li class="breadcrumb-item small"><i class="fa fa-signal text-primary me-2"></i>Beginner</li>
+                                <li class="breadcrumb-item small"><i class="fa fa-calendar-alt text-primary me-2"></i>3 Week</li>
+                            </ol>
+                        </div>
+                        <div class="position-relative mt-auto">
+                            <img class="img-fluid" src="{{ asset('images/ouvrier-du-batiment-construction-site.jpg') }}" alt="">
+                            <div class="courses-overlay">
+                                <a class="btn btn-outline-primary border-2 rounded-pill" href="{{ path('conseil_professionel') }}">{{ "button.more" |trans }}</a>
+                            </div>
+                        </div>
+                        <i class="fa fa-star text-primary "></i>
 
                     </div>
                 </div>
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="position-relative overflow-hidden ps-5 pt-5 h-100" style="min-height: 400px;">
-                        <img class="position-absolute w-100 h-100" src="{{ asset('images/femme-afro-americaine-travail-medecin-tenant-bouteille-medicament.jpg') }}" alt="" style="object-fit: cover;">
-                        <img class="position-absolute top-0 start-0 bg-white pe-3 pb-3" src="{{ asset('images/logo/logo_background.png') }}" alt="" style="width: 200px; height: 200px;">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="courses-item d-flex flex-column bg-white overflow-hidden h-100">
+                        <div class="text-center p-4 pt-0">
+                           <div class="d-inline-block bg-primary text-white fs-5 py-2 px-3 mb-4 rounded-circle">3</div>
+                            <h5 class="mb-3">{{ "header.nav.service3" |trans }}</h5>
+                            <p>{{ 'header.nav.service3_p'|trans }}</p>
+                            <ol class="breadcrumb justify-content-center mb-0 d-none">
+                                <li class="breadcrumb-item small"><i class="fa fa-signal text-primary me-2"></i>Beginner</li>
+                                <li class="breadcrumb-item small"><i class="fa fa-calendar-alt text-primary me-2"></i>3 Week</li>
+                            </ol>
+                        </div>
+                        <div class="position-relative mt-auto">
+                            <img class="img-fluid" src="{{ asset('images/fermez-gens-agence-voyage.jpg') }}" alt="">
+                            <div class="courses-overlay">
+                                <a class="btn btn-outline-primary border-2 rounded-pill" href="{{ path('placement_personnel') }}">{{ "button.more" |trans }}</a>
+                            </div>
+                        </div>
+                        <i class="fa fa-star text-primary "></i>
+
                     </div>
-                <i class="fa fa-star text-primary ms-5"></i>
+                </div>
+
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="courses-item d-flex flex-column bg-white overflow-hidden h-100">
+                        <div class="text-center p-4 pt-0">
+                            <div class="d-inline-block bg-primary text-white fs-5 py-2 px-3 mb-4 rounded-circle">4</div>
+                            <h5 class="mb-3">{{ "header.nav.service4" |trans }}</h5>
+                            <p>{{ 'header.nav.service4_p'|trans }}</p>
+                            <ol class="breadcrumb justify-content-center mb-0 d-none">
+                                <li class="breadcrumb-item small"><i class="fa fa-signal text-primary me-2"></i>Beginner</li>
+                                <li class="breadcrumb-item small"><i class="fa fa-calendar-alt text-primary me-2"></i>3 Week</li>
+                            </ol>
+                        </div>
+                        <div class="position-relative mt-auto">
+                            <img class="img-fluid" src="{{ asset('images/receptionnistes-costumes-elegants-pendant-heures-travail.jpg') }}" alt="">
+                            <div class="courses-overlay">
+                                <a class="btn btn-outline-primary border-2 rounded-pill" href="{{ path('conseil_immigration') }}">{{ "button.more" |trans }}</a>
+                            </div>
+                        </div>
+                        <i class="fa fa-star text-primary"></i>
+
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="courses-item d-flex flex-column bg-white overflow-hidden h-100">
+                        <div class="text-center p-4 pt-0">
+                            <div class="d-inline-block bg-primary text-white fs-5 py-2 px-3 mb-4 rounded-circle">5</div>
+                            <h5 class="mb-3">{{ "header.nav.service5" |trans }}</h5>
+                            <p>{{ 'header.nav.service5_p'|trans }}</p>
+                            <ol class="breadcrumb justify-content-center mb-0 d-none">
+                                <li class="breadcrumb-item small"><i class="fa fa-signal text-primary me-2"></i>Beginner</li>
+                                <li class="breadcrumb-item small"><i class="fa fa-calendar-alt text-primary me-2"></i>3 Week</li>
+                            </ol>
+                        </div>
+                        <div class="position-relative mt-auto">
+                            <img class="img-fluid" src="{{ asset('images/femme-afro-americaine-travail-medecin-tenant-bouteille-medicament.jpg') }}" alt="femme afro-americaine-travail-medecin-tenant-bouteille-medicament">
+                            <div class="courses-overlay">
+                                <a class="btn btn-outline-primary border-2 rounded-pill" href="{{ path('promotion_integration') }}">{{ "button.more" |trans }}</a>
+                            </div>
+                        </div>
+                        <i class="fa fa-star text-primary"></i>
+
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="courses-item d-flex flex-column bg-white overflow-hidden h-100">
+                        <div class="text-center p-4 pt-0">
+                           <div class="d-inline-block bg-primary text-white fs-5 py-2 px-3 mb-4 rounded-circle">6</div>
+                            <h5 class="mb-3">{{ "header.nav.service6" |trans }}</h5>
+                            <p>{{ 'header.nav.service6_p'|trans }}</p>
+                            <ol class="breadcrumb justify-content-center mb-0 d-none">
+                                <li class="breadcrumb-item small"><i class="fa fa-signal text-primary me-2"></i>Beginner</li>
+                                <li class="breadcrumb-item small"><i class="fa fa-calendar-alt text-primary me-2"></i>3 Week</li>
+                            </ol>
+                        </div>
+                        <div class="position-relative mt-auto">
+                            <img class="img-fluid" src="{{ asset('images/ingenieur.jpg') }}" alt="">
+                            <div class="courses-overlay">
+                                <a class="btn btn-outline-primary border-2 rounded-pill" href="{{ path('developpement_personnel') }}">{{ "button.more" |trans }}</a>
+                            </div>
+                        </div>
+                        <i class="fa fa-star text-primary "></i>
+
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
+    </div>   
 {% endblock %}
+
+
+

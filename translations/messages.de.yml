@@ -2,9 +2,6 @@ carousel:
   slide1: "Arbeitgeberberatung"
   slide2: "Einwanderungsberatung"
   slide3: "Einwanderungsberatung"
-infos:
-  text: "Die Webseite ist noch im Aufbau."
-  title: "Informationen"
 title:
   home: "Heim"
   about: "Über uns"
@@ -56,45 +53,62 @@ feature_start:
       h6: "Fachkräftemigration"
       span: "Für uns sind Fachkräfte keine Ware, sondern Menschen, die Wertschätzung verdienen"
 about-fact:
-  h6: "ABOUT US"
-  h1: "Wer wir sind"
-  p1: "<span class='fw-bold'>OKOHO Consulting UG</span>  setzt sich für eine <span class='fw-bold'>faire</span>, <span class='fw-bold'>transparente</span> und <span class='fw-bold'>menschenwürdige</span> internationale Fachkräfteanwerbung ein. 
-          Wir unterstützen deutsche Unternehmen im Einstellungsverfahren von Fachkräften und Auszubildenden in/aus Drittstaaten. Dabei werden folgende Dienstleistungen angeboten:"
-  p2: "<span class='fw-bold'> <span class='fs-2'>.</span> Fachkräfteanwerbung:</span> Für bestimmte zugelassene Berufsgruppen werben wir passende Fachkräfte und Auszubildende für Ihr Unternehmen an."
-  p3: "<span class='fw-bold'> <span class='fs-2'>.</span> Begleitung des Einstellungsverfahren:</span> Unsere Experten aus Drittstaaten überprüfen gründlich die Bewerbungsunterlagen Ihrer Bewerber*innen aus Drittstaaten. Wir helfen Ihnen, 
-          ein qualitative Einschätzung der vorliegenden Bewerbungsunterlagen zu haben. Auf Wunsch führen wir für Sie erste Bewerbungsgespräche auf der Muttersprache Ihrer Bewerber*innen, 
-          so dass ihre wahren Motivationen ohne sprachliche Barriere in Erfahrung gebracht werden können."
-  p4: "<span class='fw-bold'> <span class='fs-2'>.</span> Einwanderungsbegleitung</span>: Wir übernehmen für Sie alle Behördengänge im Einwanderungsverfahren,
-          koordinieren den Visumantrag und bereiten sowohl ihre zukünftige Fachkraft/Auszubildende als auch ihr Team auf eine gute, erfolgsorientierte und konstruktive Zusammenarbeit vor."
-  p5: "<span class='fw-bold'> <span class='fs-2'>.</span> Unterstützung bei der Relocation:</span> Wir unterstützen Ihre Fachkraft/Auszubildende bei der Reisevorbereitung und Wohnungssuche in Deutschland. 
-          Wir holen ihre Fachkraft/Auszubildende vom Flughafen ab und führen sie allmählich in die deutsche Gesellschaft ein."
-  p6: "<span class='fw-bold'> <span class='fs-2'>.</span> Förderung der Integration:</span> Nach der Ankunft der Fachkraft/Auszubildende in Deutschland unterstützen wir ihre Fachkraft/Auszubildende bis zum letzten Behördengang 
-          sowie bei der Vernetzung mit anderen Menschen und mit unserem ganzheitlichen Integrationskonzept können Ihre Fachkraft/Auszubildende leichter hierzulande Fuß fassen. 
-          Wir bleiben für Ihre Fachkraft/Auszubildende Ansprechpartner für Fragen rund um das Alltagsleben in Deutschland. "
-  p7: "Auf der Grundlage der neuesten Forschungserkenntnisse und unserer eigenen Erfahrungen als Menschen aus Drittstaaten helfen wir Ihnen, die passenden Fachkräfte für Ihr Unternehmen zu finden, 
-          sie hierher zu holen und langfristig zu binden. 
-      "
-  item2:
-    h1: "Unsere Vision:"
-    p1: "Wir wollen die effektivsten und effizientesten Lösungen für eine nachhaltige, menschenwürdige internationale Fachkräftemigration anbieten"
-  item3:
-    h1: "Unsere Mission:"
-    p1: "Wir unterstützen faire Beschäftigung jenseits jeglicher Grenzen."
-  item4:
-    h1: "Unsere Werte:"
-    p1: "<span class='fw-bold'> Fairness:</span> Wir setzen uns für faire Arbeitsbedingungen ein, indem wir die Rechte, die Sicherheit und das Wohlbefinden unserer Mitarbeiter*innen und unserer Mandant*innen gewährleisten und respektieren."
-    p2: "<span class='fw-bold'> Menschlichkeit:</span> Es liegt uns am Herzen, den Mitmenschen Wertschätzung, Aufmerksamkeit und Empathie entgegenzubringen."
-    p3: "<span class='fw-bold'> Authentizität:</span> Wir stehen zu unseren Stärken und Schwächen. Wir schaffen täglich ein Arbeitsumfeld, indem jeder sich selbst sein darf und sein Bestes zum Wohl unserer Mandanten leistet."
-  item5:
-    h1: "Unser Leitbild:"
-    p1: "Im Mittelpunkt unserer Arbeit steht der <span class='fw-bold'>MENSCH:</span> Wir wissen sehr gut die große Mut zu schätzen, die mit folgenden Entscheidungen und Handlungen zusammenhängen: 1) sein Land, 
-          seine Familie und seine vertraute Gesellschaft für einen Neuanfang im Ausland zu verlassen; 2)  im Unternehmen unbekannte, fremde Menschen aufzunehmen, die aus einem weit entfernten Land kommen,  
-          eine fremde Kultur und zum Teil andere Welt-, Werte- und Lebensvorstellungen haben. Wir bringen die beiden Welten zusammen und tragen zu einer langfristigen Zusammenarbeit zwischen ihnen bei."
-    p2: " Uns liegen sowohl die erfolgreiche Durchführung der Vermittlungs- und Integrationsprozesse als auch das <span class='fw-bold'> Wohlbefinden</span> der involvierten Menschen am Herzen. </br> </br>
-          Wir verpflichten uns zu einer <span class='fw-bold'>ethisch vertretbaren</span> Anwerbung und Vermittlung internationaler Fachkräfte und Auszubildenden Wir achten stets darauf, "
-    p3: "dass keine Abhängigkeiten entstehen und verlangen von internationalen Fachkräften und Auszubildenden keine Vermittlungsgebühren. Bei uns werden  <span class='fw-bold'>Ehrlichkeit, 
-         Vermeidung und Bekämpfung jeglicher Diskriminierung</span> sowie <span class='fw-bold'>Kundenorientierung großgeschrieben.</span> "
-    p4: "Durch unsere Arbeit nach festgelegten Qualitätszielen und unser Engagement für den Erfolg sorgen wir dafür, dass Ihnen ein Lächeln ins Gesicht gezaubert wird. "
+  h6: "About Us"
+  h7: "Wer wir sind:"
+  h1: "We help you with your immigration process"
+  item1: "Arbeitgeberberatung"
+  item2: "Beratung Internationaler Fachkräfte"
+  item3: "Fachkräftevermittlung"
+  item4: "Einwanderungsberatung"
+abouts:
+  bold:
+    p1: "Fairness: "
+    p2: "Menschlichkeit: "
+    p3: "Authentizität: "
+  #about us content body
+  h0: "OKOHO Consulting UG "
+  h11: "setzt sich für eine " 
+  h12: "faire, transparente "
+  h13: "und "
+  h14: "menschenwürdige "
+  h15: "internationale Fachkräfteanwerbung ein. Wir unterstützen deutsche Unternehmen im Einstellungsverfahren von Fachkräften und Auszubildenden in/aus Drittstaaten. Dabei werden folgende Dienstleistungen angeboten:"
+  p1: "Für bestimmte zugelassene Berufsgruppen werben wir passende Fachkräfte und Auszubildende für Ihr Unternehmen an."
+  p111: "Fachkräfteanwerbung: "
+  p2: "Unsere Experten aus Drittstaaten überprüfen gründlich die Bewerbungsunterlagen Ihrer Bewerber*innen aus Drittstaaten. Wir helfen Ihnen, ein qualitative Einschätzung der vorliegenden Bewerbungsunterlagen zu haben. Auf Wunsch führen wir für Sie erste Bewerbungsgespräche auf der Muttersprache Ihrer Bewerber*innen, so dass ihre wahren Motivationen ohne sprachliche Barriere in Erfahrung gebracht werden können."
+  p112: "Begleitung des Einstellungsverfahren: "
+  p3: "Wir übernehmen für Sie alle Behördengänge im Einwanderungsverfahren, koordinieren den Visumantrag und bereiten sowohl ihre zukünftige Fachkraft/Auszubildende als auch ihr Team auf eine gute, erfolgsorientierte und konstruktive Zusammenarbeit vor."
+  p113: "Einwanderungsbegleitung: "
+  p4: "Wir unterstützen Ihre Fachkraft/Auszubildende bei der Reisevorbereitung und Wohnungssuche in Deutschland. Wir holen ihre Fachkraft/Auszubildende vom Flughafen ab und führen sie allmählich in die deutsche Gesellschaft ein."
+  p114: "Unterstützung bei der Relocation: "
+  p5: "Nach der Ankunft der Fachkraft/Auszubildende in Deutschland unterstützen wir ihre Fachkraft/Auszubildende bis zum letzten Behördengang sowie bei der Vernetzung mit anderen Menschen und mit unserem ganzheitlichen Integrationskonzept können Ihre Fachkraft/Auszubildende leichter hierzulande Fuß fassen. Wir bleiben für Ihre Fachkraft/Auszubildende Ansprechpartner für Fragen rund um das Alltagsleben in Deutschland. "
+  p115: "Förderung der Integration: "
+  p6: "Auf der Grundlage der neuesten Forschungserkenntnisse und unserer eigenen Erfahrungen als"
+  p61: " Menschen aus Drittstaaten "
+  p62: "helfen wir Ihnen, die passenden Fachkräfte für Ihr Unternehmen zu finden, sie hierher zu holen und langfristig zu binden."
+  h2: "Unsere Vision:"
+  p21: "Wir wollen die effektivsten und effizientesten Lösungen für eine nachhaltige, menschenwürdige internationale Fachkräftemigration anbieten"
+  h3: "Unsere Mission:"
+  p31: "Wir unterstützen faire Beschäftigung jenseits jeglicher Grenzen."
+  h4: "Unsere Werte:"
+  p41: "Wir setzen uns für faire Arbeitsbedingungen ein, indem wir die Rechte, die Sicherheit und das Wohlbefinden unserer Mitarbeiter*innen und unserer Mandant*innen gewährleisten und respektieren."
+  p42: "Es liegt uns am Herzen, den Mitmenschen Wertschätzung, Aufmerksamkeit und Empathie entgegenzubringen."
+  p43: "Wir stehen zu unseren Stärken und Schwächen. Wir schaffen täglich ein Arbeitsumfeld, indem jeder sich selbst sein darf und sein Bestes zum Wohl unserer Mandanten leistet."
+  h5: "Unser Leitbild:"
+  p511: " MENSCH : "
+  p51: " Im Mittelpunkt unserer Arbeit steht der " 
+  p5111: "Wir wissen sehr gut die große Mut zu schätzen, die mit folgenden Entscheidungen und Handlungen zusammenhängen: 1) sein Land, seine Familie und seine vertraute Gesellschaft für einen Neuanfang im Ausland zu verlassen; 2)  im Unternehmen unbekannte, fremde Menschen aufzunehmen, die aus einem weit entfernten Land kommen,  eine fremde Kultur und zum Teil andere Welt-, Werte- und Lebensvorstellungen haben. Wir bringen die beiden Welten zusammen und tragen zu einer langfristigen Zusammenarbeit zwischen ihnen bei."
+  p521: " Wohlbefinden "
+  p52: "Uns liegen sowohl die erfolgreiche Durchführung der Vermittlungs- und Integrationsprozesse als auch das" 
+  p522: "der involvierten Menschen am Herzen."
+  p531: " ethisch vertretbaren "
+  p532: "Ehrlichkeit, Vermeidung und Bekämpfung jeglicher Diskriminierung"
+  p533: " Kundenorientierung "
+  p534: ""
+  p53: "Wir verpflichten uns zu einer"  
+  p5331: "Anwerbung und Vermittlung internationaler Fachkräfte und Auszubildenden. Wir achten stets darauf, dass keine Abhängigkeiten entstehen und verlangen von internationalen Fachkräften und Auszubildenden keine Vermittlungsgebühren. Bei uns werden  "
+  p5332: " sowie " 
+  p5333: "großgeschrieben."
+  p54: "Durch unsere Arbeit nach festgelegten Qualitätszielen und unser Engagement für den Erfolg sorgen wir dafür, dass Ihnen ein Lächeln ins Gesicht gezaubert wird."
 team:
   h1: "Vielen Dank für Ihr Vertrauen"
 testimonial:

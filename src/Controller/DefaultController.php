@@ -2,22 +2,19 @@
 
 namespace App\Controller;
 
-use App\Entity\Jobs;
 use App\Entity\Contact;
-use App\Form\JobType;
-use Psr\Log\LoggerInterface;
-use Symfony\Component\Mime\Email;
-use App\Repository\JobsRepository;
 use Doctrine\ORM\EntityManagerInterface;
-use Symfony\Bridge\Twig\Mime\TemplatedEmail;
+use Psr\Log\LoggerInterface;
+use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
+use Symfony\Component\DependencyInjection\ParameterBag\ParameterBagInterface;
+use Symfony\Component\HttpFoundation\Exception\BadRequestException;
+use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\HttpFoundation\Request;
-use Symfony\Component\Mailer\MailerInterface;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
-use Symfony\Component\HttpFoundation\JsonResponse;
-use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
-use Symfony\Component\HttpFoundation\Exception\BadRequestException;
-use Symfony\Component\DependencyInjection\ParameterBag\ParameterBagInterface;
+use Symfony\Component\Mailer\MailerInterface;
+use Symfony\Component\Mime\Email;
+use Symfony\Bridge\Twig\Mime\TemplatedEmail;
 
 
 class DefaultController extends AbstractController
@@ -166,28 +163,9 @@ class DefaultController extends AbstractController
      * @param Request $request
      * @return Response
      */
-    public function newsandevent(Request $request, JobsRepository $jobsRepository): Response
+    public function newsandevent(Request $request): Response
     {
-        $locale = $request->getLocale(); // par exemple 'fr' ou 'en'
-        // vous pouvez ensuite poser des conditions en fonction de la locale
-        if ($locale === 'fr') {
-            $mois = [1=>"Janvier",2=>"Fevrier",3=>"Mars",4=>"Avril",5=>"Mai",6=>"Juin",7=>"Juillet",8=>"Aout",9=>"Septembre",10=>"Octobre",11=>"Novembre",12=>"Decembre"]; 
-        } elseif ($locale === 'en') {
-            $mois = [1=>"January",2=>"January",3=>"March",4=>"April",5=>"May",6=>"June",7=>"July",8=>"August",9=>"September",10=>"October",11=>"November",12=>"December"];   
-        }elseif ($locale === 'de') {
-            $mois = [1=>"Januar",2=>"Februar",3=>"März",4=>"April",5=>"Mai",6=>"Juni",7=>"Juli",8=>"August",9=>"Septembre",10=>"Oktober",11=>"November",12=>"Dezember"]; 
-        }
-
-        
-        $jobs = $jobsRepository->findByTypeOfJobs('Jobs');
-        $news = $jobsRepository->findByTypeOfJobs('News');
-        $event = $jobsRepository->findByTypeOfJobs('Events');
-
-        return $this->render('default/newsandevent.html.twig', [ 
-            'jobs' => $jobs,
-            'events' => $event,
-            'news' => $news,
-            'mois' => $mois
+        return $this->render('default/newsandevent.html.twig', [
         ]);
     }
     /**
@@ -248,30 +226,6 @@ class DefaultController extends AbstractController
     public function developpement_personnel(Request $request): Response
     {
         return $this->render('default/developpement_personnel.html.twig', [
-        ]);
-    }
-      /**
-     * @Route("/{_locale<%app.supported_locales%>}/add", name="event&jobs")
-     * @param Request $request
-     * @return Response
-     */
-    public function event_jobs(Request $request, EntityManagerInterface $manager, JobsRepository $jobsRepository): Response
-    {
-
-        $jobs = new Jobs();
-
-        $form = $this->createForm(JobType::class, $jobs);
-        $form->handleRequest($request);
-
-        if ($form->isSubmitted() && $form->isValid()) {
-
-            $jobsRepository->add($jobs, true);
-
-            return $this->redirectToRoute('newsandevent', [], Response::HTTP_SEE_OTHER);
-        }
-
-        return $this->renderForm('default/events_jobs.html.twig', [
-            'form' => $form
         ]);
     }
     /**

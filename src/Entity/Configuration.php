@@ -38,9 +38,4 @@ class Configuration
 
         return $this;
     }
-
-    public function isMaintenance(): ?bool
-    {
-        return $this->maintenance;
-    }
 }
