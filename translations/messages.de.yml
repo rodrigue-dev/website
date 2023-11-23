@@ -65,7 +65,10 @@ abouts:
     p1: "Fairness: "
     p2: "Menschlichkeit: "
     p3: "Authentizität: "
-  #about us content body
+  #about us content body 
+  #each highlighted part of the body has it own identity and therefore cause the seperation of statement
+  
+  #first block of the about us body
   h0: "OKOHO Consulting UG "
   h11: "setzt sich für eine " 
   h12: "faire, transparente "
@@ -85,6 +88,8 @@ abouts:
   p6: "Auf der Grundlage der neuesten Forschungserkenntnisse und unserer eigenen Erfahrungen als"
   p61: " Menschen aus Drittstaaten "
   p62: "helfen wir Ihnen, die passenden Fachkräfte für Ihr Unternehmen zu finden, sie hierher zu holen und langfristig zu binden."
+  
+  #second block of the about us body
   h2: "Unsere Vision:"
   p21: "Wir wollen die effektivsten und effizientesten Lösungen für eine nachhaltige, menschenwürdige internationale Fachkräftemigration anbieten"
   h3: "Unsere Mission:"
@@ -93,6 +98,8 @@ abouts:
   p41: "Wir setzen uns für faire Arbeitsbedingungen ein, indem wir die Rechte, die Sicherheit und das Wohlbefinden unserer Mitarbeiter*innen und unserer Mandant*innen gewährleisten und respektieren."
   p42: "Es liegt uns am Herzen, den Mitmenschen Wertschätzung, Aufmerksamkeit und Empathie entgegenzubringen."
   p43: "Wir stehen zu unseren Stärken und Schwächen. Wir schaffen täglich ein Arbeitsumfeld, indem jeder sich selbst sein darf und sein Bestes zum Wohl unserer Mandanten leistet."
+  
+  #thirt block of the about us body
   h5: "Unser Leitbild:"
   p511: " MENSCH : "
   p51: " Im Mittelpunkt unserer Arbeit steht der " 
